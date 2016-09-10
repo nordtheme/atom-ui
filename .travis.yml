@@ -1,0 +1,22 @@
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# title      Travis CI Build Configuration                   +
+# project    nord-atom-ui                                    +
+# version                                                    +
+# repository https://github.com/arcticicestudio/nord-atom-ui +
+# author     Arctic Ice Studio                               +
+# email      development@arcticicestudio.com                 +
+# copyright  Copyright (C) 2016                              +
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#
+# [References]
+# Travis CI Documentation
+#   (https://docs.travis-ci.com)
+language: objective-c
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+branches:
+  only:
+    - master
+script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'

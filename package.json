@@ -1,0 +1,28 @@
+{
+  "name": "nord-atom-ui",
+  "theme": "ui",
+  "description": "A arctic, north-bluish clean and elegant minimal Atom UI.",
+  "version": "",
+  "author": {
+    "name": "Arctic Ice Studio",
+    "email": "development@arcticicestudio.com"
+  },
+  "homepage": "https://github.com/arcticicestudio/nord-atom-ui",
+  "repository": "https://github.com/arcticicestudio/nord-atom-ui",
+  "bugs": {
+    "url": "https://github.com/arcticicestudio/nord-atom-ui/issues"
+  },
+  "keywords": [
+    "arctic",
+    "north",
+    "bluish",
+    "clean",
+    "elegant",
+    "minimal",
+    "ui"
+  ],
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
