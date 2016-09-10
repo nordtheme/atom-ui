@@ -1,0 +1,26 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Status Bar                                      +
+project    nord-atom-ui                                    +
+version                                                    +
+repository https://github.com/arcticicestudio/nord-atom-ui +
+author     Arctic Ice Studio                               +
+email      development@arcticicestudio.com                 +
+copyright  Copyright (C) 2016                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+status-bar {
+  .text(subtle);
+  background: @base-border-color;
+  height: @input-height;
+  line-height: @component-line-height;
+  font-size: 11px;
+
+  & > .flexbox-repaint-hack {
+    padding-top: 3px;
+  }
+
+  span {
+    font-size: 11px;
+  }
+}
