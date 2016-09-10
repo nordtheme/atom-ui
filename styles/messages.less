@@ -1,0 +1,26 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Messages                                        +
+project    nord-atom-ui                                    +
+version                                                    +
+repository https://github.com/arcticicestudio/nord-atom-ui +
+author     Arctic Ice Studio                               +
+email      development@arcticicestudio.com                 +
+copyright  Copyright (C) 2016                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+.background-message .message,
+.background-message li {
+  .text(subtle);
+  font-size: 24px;
+
+  .keystroke {
+    .text(normal);
+    color: @tooltip-key-text-color;
+    background: @tooltip-key-background-color;
+    font-size: 90%;
+    border: 1px solid @tooltip-key-text-color;
+    border-radius: @component-border-radius/2;
+    margin-left: @component-padding/2;
+  }
+}
