@@ -1,0 +1,63 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Notifications                                   +
+project    nord-atom-ui                                    +
+version                                                    +
+repository https://github.com/arcticicestudio/nord-atom-ui +
+author     Arctic Ice Studio                               +
+email      development@arcticicestudio.com                 +
+copyright  Copyright (C) 2016                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+atom-notifications {
+  .text(normal);
+  top: 32px;
+  background-color: transparent;
+
+  .close {
+    transition: all @transition-time ease;
+
+    &:before {
+      color: @text-color;
+    }
+  }
+
+  .btn {
+    height: 24px !important;
+    line-height: 20px !important;
+
+    &.close-all {
+      .button-variant(@text-color-info);
+    }
+  }
+
+  .content,
+  .detail,
+  .message,
+  .meta {
+    color: @text-color;
+    background-color: @overlay-background-color;
+    background-clip: inherit;
+      
+    code,
+    .detail-content {
+      background-color: @overlay-border-color;
+      color: @text-color;
+    }
+      
+    .stack-toggle {
+      color: @text-color-info;
+    }
+  }
+    
+  .meta {
+    .description a {
+        color: @text-color-info;
+    }
+      
+    .btn-toolbar .icon-clippy {
+      color: @text-color;
+      padding-left: 5px;
+    }
+  }
+}
