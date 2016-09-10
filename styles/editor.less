@@ -1,0 +1,123 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Editor                                          +
+project    nord-atom-ui                                    +
+version                                                    +
+repository https://github.com/arcticicestudio/nord-atom-ui +
+author     Arctic Ice Studio                               +
+email      development@arcticicestudio.com                 +
+copyright  Copyright (C) 2016                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+atom-text-editor,
+atom-text-editor::shadow,
+:host {
+  .scroll-view {
+    padding: 0;
+  }
+
+  .line.cursor-line {
+    background-color: fade(@base-background-color, 32%);
+  }
+
+  .selection .region {
+    background-color: @base-background-color;
+  }
+
+  .gutter {
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    background-color: @gutter-background-color;
+    margin-right: 0;
+    border-right: 0;
+    padding-right: 0;
+
+    .line-numbers {
+      background: transparent !important;
+    }
+
+    .line-number {
+      background: transparent;
+      opacity: 1.0;
+      color: @gutter-text-color;
+      border-left: 2px solid transparent;
+      padding-right: 0;
+      width: inherit;
+
+      &.git-line-added {
+        color: @text-color-added;
+        border-left-color: @text-color-added;
+
+        &.cursor-line,
+        &.cursor-line-no-selection {
+          color: @text-color-added;
+          border-left-color: @text-color-added;
+        }
+      }
+
+      &.git-line-modified {
+        color: @text-color-modified;
+        border-left-color: @text-color-modified;
+
+        &.cursor-line,
+        &.cursor-line-no-selection {
+          color: @text-color-modified;
+          border-left-color: @text-color-modified;
+        }
+      }
+
+      &.git-line-removed {
+        color: @text-color-removed;
+        border-left-color: @text-color-removed;
+
+        &.cursor-line,
+        &.cursor-line-no-selection {
+          color: @text-color-removed;
+          border-left-color: @text-color-removed;
+        }
+      }
+
+      &.cursor-line {
+        color: @gutter-text-color-selected;
+        font-weight: 600;
+      }
+
+      &.cursor-line-no-selection {
+        color: @text-color-highlight;
+        font-weight: 600;
+      }
+
+      .icon-right {
+        opacity: 1.0;
+        color: @gutter-text-color;
+      }
+
+      .icon-right:hover {
+        color: @gutter-text-color-selected;
+      }
+    }
+  }
+
+  .gutter .line-number.folded,
+  .gutter .line-number.folded .icon-right,
+  .gutter .line-number:after {
+    color: @text-color-info;
+    border-left-color: @text-color-info;
+  }
+
+  .gutter .line-number.folded.cursor-line,
+  .gutter .line-number.folded.cursor-line-no-selection {
+    color: @text-color-info;
+    border-left-color: @text-color-info;
+
+    .icon-right {
+      color: @text-color-info;
+      border-left-color: @text-color-info;
+    }
+  }
+
+  .fold-marker:after {
+    color: @text-color-info;
+    background: transparent;
+  }
+}
