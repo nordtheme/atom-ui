@@ -1,0 +1,207 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      UI Variables                                    +
+project    nord-atom-ui                                    +
+version                                                    +
+repository https://github.com/arcticicestudio/nord-atom-ui +
+author     Arctic Ice Studio                               +
+email      development@arcticicestudio.com                 +
+copyright  Copyright (C) 2016                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[Index]
+  > Animations
+  > Base
+      Background
+      Text
+  > Components
+      Button
+      Gutter
+      Input
+      Overlay
+      Pane
+      Panel
+      Progress Indicator
+      Scrollbar
+      Site
+      Tab
+      Tooltip
+      Tree View
+  > Configurations
+  > Editor Elements
+  > Fonts
+  > Package Support
+      Markdown Preview
+  > Sizes
+      Base
+      Font
+      Input
+      Tab
+*/
+/*+---------+
+  + Imports +
+  +---------+*/
+@import "syntax-variables";
+@import "nord";
+
+/*+------------+
+  + Animations +
+  +------------+*/
+@transition-time: 400ms;
+
+/*+------+
+  + Base +
+  +------+*/
+@base-background-color: @nord0;
+@base-border-color: @nord1;
+@app-background-color: @base-background-color;
+
+/*+--- Background ---+*/
+@background-color-highlight: @nord2;
+@background-color-selected: @nord2;
+@background-color-info: @nord9; 
+@background-color-success: @nord14;
+@background-color-warning: @nord12;
+@background-color-error: @nord11;
+
+/*+--- Text ---+*/
+@text-color: @nord4;
+@text-color-subtle: fade(@text-color, 40%);
+@text-color-highlight: @nord6;
+@text-color-selected: @text-color-highlight;
+@text-color-info: @nord9;
+@text-color-success: @nord14;
+@text-color-warning: @nord12;
+@text-color-error: @nord11;
+@text-color-ignored: @text-color-subtle;
+@text-color-added: @nord14;
+@text-color-renamed: @nord9;
+@text-color-modified: @nord13;
+@text-color-removed: @nord11;
+
+/*+------------+
+  + Components +
+  +------------+*/
+/*+--- Button ---+*/
+@button-background-color: transparent;
+@button-background-color-hover: @input-border-color;
+@button-background-color-selected: @input-border-color;
+@button-border-color: @input-border-color;
+
+/*+--- Gutter ---+*/
+@gutter-background-color: transparent;
+@gutter-background-color-selected: transparent;
+@gutter-text-color: @text-color-subtle;
+@gutter-text-color-selected: @text-color-selected;
+
+/*+--- Input ---+*/
+@input-background-color: @nord1;
+@input-border-color: @text-color;
+@input-background-color-active: @text-color;
+@input-text-color-active: @base-background-color;
+
+/*+--- Overlay ---+*/
+@overlay-background-color: @tool-panel-background-color;
+@overlay-border-color: @base-border-color;
+
+/*+--- Pane ---+*/
+@pane-item-background-color: @nord2;
+@pane-item-border-color: @base-border-color;
+
+/*+--- Panel ---+*/
+@tool-panel-background-color: @base-background-color;
+@tool-panel-border-color: @base-border-color;
+@inset-panel-background-color: @nord1;
+@inset-panel-border-color: @base-border-color;
+@panel-heading-background-color: @nord1;
+@panel-heading-border-color: @base-border-color;
+
+/*+--- Progress Indicator ---+*/
+@progress-background-color: @nord9;
+
+/*+--- Scrollbar ---+*/
+@scrollbar-color: @nord1;
+@scrollbar-color-active: @nord1;
+@scrollbar-border-color: @nord0;
+@scrollbar-track-color: transparent;
+
+/*+--- Site ---+*/
+@ui-site-color-1: @nord9;
+@ui-site-color-2: @nord14;
+@ui-site-color-3: @nord12;
+@ui-site-color-4: @nord11;
+@ui-site-color-5: @nord13;
+
+/*+--- Tab ---+*/
+@tab-bar-background-color: @app-background-color;
+@tab-bar-border-color: @base-border-color;
+@tab-background-color: @tool-panel-background-color;
+@tab-background-color-active: @app-background-color;
+@tab-background-color-hover: @base-border-color;
+@tab-border-color: @base-border-color;
+
+/*+--- Tooltip ---+*/
+@tooltip-text-color: @base-background-color;
+@tooltip-background-color: @text-color;
+@tooltip-key-text-color: @nord8;
+@tooltip-key-background-color: @base-background-color;
+
+/*+--- Tree View ---+*/
+@tree-view-background-color: @tool-panel-background-color;
+@tree-view-border-color: @base-border-color;
+
+/*+----------------+
+  + Configurations +
+  +----------------+*/
+@use-custom-controls: true;
+
+/*+-----------------+
+  + Editor Elements +
+  +-----------------+*/
+@cursor-color: @text-color;
+@indent-guide-color: @nord3;
+@invisibles-color: @nord3;
+
+/*+-------+
+  + Fonts +
+  +-------+*/
+@font-family:
+  "BlinkMacSystemFont",
+  "System Font",
+  "Helvetica Neue",
+  "Roboto",
+  "Cantarell",
+  "Ubuntu",
+  "Lucida Grande",
+  "Segoe UI",
+  "Noto Sans",
+  sans-serif;
+
+/*+-----------------+
+  + Package Support +
+  +-----------------+*/
+/*+--- Markdown Preview ---+*/
+@markdown-preview-text-color: @text-color;
+@markdown-preview-background-color: @base-background-color;
+@markdown-preview-border-color: @base-border-color;
+
+/*+-------+
+  + Sizes +
+  +-------+*/
+/*+--- Base ---+*/
+@disclosure-arrow-size: 12px;
+@component-icon-size: 16px;
+@component-icon-padding: 5px;
+@component-padding: 10px;
+@component-line-height: 26px;
+@component-border-radius: 4px;
+
+/*+--- Font ---+*/
+@font-size: 14px;
+@input-font-size: 14px;
+
+/*+--- Input ---+*/
+@input-height: 32px;
+
+/*+--- Tab ---+*/
+@tab-height: 40px;
