@@ -4,7 +4,7 @@
 
 <p align="center">A arctic, north-bluish clean and elegant minimal Atom UI.</p>
 
-<p align="center">Designed for a optimized fluent and clear workflow.  
+<p align="center">Designed for a optimized fluent and clear workflow.<br>
 Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color palette.</p>
 
 ## Getting started
