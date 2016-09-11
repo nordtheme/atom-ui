@@ -10,10 +10,11 @@ copyright  Copyright (C) 2016                              +
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 [Index]
-  > Imports
+  > Core
+  > Components
+  > Package Support
+      Community
       Core
-      Mixins
-      Components
 
 [References]
 Nord
@@ -25,17 +26,16 @@ Atom Documentation
 LESSCSS
   (http://lesscss.org)
 */
-/*+---------+
-  + Imports +
-  +---------+*/
-/*+--- Core ---+*/
+/*+------+
+  + Core +
+  +------+*/
 @import (reference) "styles/ui-variables";
-
-/*+--- Mixins ---+*/
 @import (reference) "octicon-mixins";
 @import (reference) "styles/ui-mixins";
 
-/*+--- Components ---+*/
+/*+------------+
+  + Components +
+  +------------+*/
 @import "styles/atom";
 @import "styles/buttons";
 @import "styles/editor";
@@ -53,3 +53,9 @@ LESSCSS
 @import "styles/text";
 @import "styles/tooltips";
 @import "styles/tree-view";
+
+/*+-----------------+
+  + Package Support +
+  +-----------------+*/
+/*+--- Community ---+*/
+@import "styles/package-support/color-picker";
