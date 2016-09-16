@@ -128,8 +128,23 @@ copyright  Copyright (C) 2016                              +
       .text(highlight);
     }
     
-    .meta-controls .status-indicator {
-      width: @component-padding/2;
+    .meta-controls {
+      .install-button, .uninstall-button {
+        &.is-installing,
+        &.is-uninstalling {
+          background-image: none;
+          -webkit-animation: none;
+
+          &::before {
+            -webkit-animation: spin 1s linear infinite;
+            content: '\f087';
+          }
+        }
+      }
+
+      .status-indicator {
+        width: @component-padding/2;
+      }
     }
   }
 
