@@ -5,7 +5,12 @@
 <p align="center">A arctic, north-bluish clean and elegant minimal Atom UI.</p>
 
 <p align="center">Designed for a optimized fluent and clear workflow.<br>
-Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color palette.</p>
+Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color palette.<br>
+Fits the <a href="https://atom.io/themes/nord-atom-syntax">nord-atom-syntax</a> theme.</p>
+
+![][scrot-top]
+> Icons provided by [file-icons](https://atom.io/packages/file-icons), minimap by [minimap](https://atom.io/packages/minimap).  
+Font is [Source Code Pro](https://adobe-fonts.github.io/source-code-pro) 20px.
 
 ## Getting started
 ### Installation
@@ -40,3 +45,5 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
 <p align="center"> <img src="http://arcticicestudio.com/favicon.ico" width=16 height=16/> Copyright &copy; 2016 Arctic Ice Studio</p>
 
 <p align="center"><a href="https://github.com/arcticicestudio/nord-atom-ui/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a></p>
+
+[scrot-top]: https://github.com/arcticicestudio/nord-atom-ui/blob/develop/assets/scrot-top.png
