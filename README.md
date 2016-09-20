@@ -28,6 +28,19 @@ apm install nord-atom-ui
   1. Open *Settings > Themes*
   2. Select `Nord Atom` from the *UI Theme* drop-down menu
 
+## Features
+![][scrot-feature-modal-overlay]
+> Floating modal overlays with a big font type.
+
+![][scrcast-feature-smooth-transitions-components]
+> Smooth, non-obtrusive transitions for UI components.
+
+![][scrcast-feature-full-width-tabs]
+> Optimized tab layout by using the full editor width.
+
+![][scrcast-feature-tab-dirty-state]
+> Flat, colored dirty state indicator.
+
 ## Package Support
 This theme contains optimized styles to achieve a consistent and uniform UI experience.   
 Detailed descriptions for supported packages can be found in the [project wiki](https://github.com/arcticicestudio/nord-atom-ui/wiki/Package-Support).
@@ -50,4 +63,8 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
 
 <p align="center"><a href="https://github.com/arcticicestudio/nord-atom-ui/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a></p>
 
+[scrcast-feature-full-width-tabs]: https://github.com/arcticicestudio/nord-atom-ui/blob/develop/assets/scrcast-feature-full-width-tabs.gif
+[scrcast-feature-smooth-transitions-components]: https://github.com/arcticicestudio/nord-atom-ui/blob/develop/assets/scrcast-feature-smooth-transitions-components.gif
+[scrcast-feature-tab-dirty-state]: https://github.com/arcticicestudio/nord-atom-ui/blob/develop/assets/scrcast-feature-tab-dirty-state.gif
+[scrot-feature-modal-overlay]: https://github.com/arcticicestudio/nord-atom-ui/blob/develop/assets/scrot-feature-modal-overlay.png
 [scrot-top]: https://github.com/arcticicestudio/nord-atom-ui/blob/develop/assets/scrot-top.png
