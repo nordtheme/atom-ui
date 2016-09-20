@@ -9,8 +9,7 @@ Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color pa
 Fits the <a href="https://atom.io/themes/nord-atom-syntax">nord-atom-syntax</a> theme.</p>
 
 ![][scrot-top]
-> Icons provided by [file-icons](https://atom.io/packages/file-icons), minimap by [minimap](https://atom.io/packages/minimap).  
-Font is [Source Code Pro](https://adobe-fonts.github.io/source-code-pro) 20px.
+> Icons provided by [file-icons](https://atom.io/packages/file-icons), minimap by [minimap](https://atom.io/packages/minimap).
 
 ## Getting started
 ### Installation
