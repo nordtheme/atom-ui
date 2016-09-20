@@ -1,8 +1,17 @@
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-atom-ui/develop/assets/nord-atom-ui-banner.svg"/></p>
 
-# 0.1.0 (2016-09-20)
-<img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://atom.io/themes/nord-atom-ui"><img src="https://img.shields.io/apm/v/nord-atom-ui.svg"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-ui/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-ui.svg"/></a>
+<p align="center"><img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://atom.io/themes/nord-atom-ui"><img src="https://img.shields.io/apm/v/nord-atom-ui.svg"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-ui/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-ui.svg"/></a></p>
 
+# 0.2.0 (2016-09-20)
+## Improvements
+### Controls
+  - The background color of checked checkboxes is now the accent color instead of lime/green (@arcticicestudio, #33, 55b0be1fb53a0143099663625ff05a3c927ec677)
+
+## Bugfixes
+### Documentation
+  - Fixed all unrendered images in the [atom.io](https://atom.io/themes/nord-atom-ui) package README by using the `https://raw.githubusercontent.com` domain (@arcticicestudio, #32, 9db9fed22aab7b070e66d7b1fc0c04da93e3200d)
+
+# 0.1.0 (2016-09-20)
 **Initial APM package release version!**  
 *Closes the [APM Package Release](https://github.com/arcticicestudio/nord-atom-ui/milestone/1) milestone.*
 
