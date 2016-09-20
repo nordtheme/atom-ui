@@ -28,6 +28,10 @@ apm install nord-atom-ui
   1. Open *Settings > Themes*
   2. Select `Nord Atom` from the *UI Theme* drop-down menu
 
+## Package Support
+This theme contains optimized styles to achieve a consistent and uniform UI experience.   
+Detailed descriptions for supported packages can be found in the [project wiki](https://github.com/arcticicestudio/nord-atom-ui/wiki/Package-Support).
+
 ## Development
 [![](https://img.shields.io/badge/Changelog-v0.0.0-blue.svg)](https://github.com/arcticicestudio/nord-atom-ui/blob/v0.0.0/CHANGELOG.md)
 
