@@ -5,7 +5,12 @@
 <p align="center">A arctic, north-bluish clean and elegant minimal Atom UI.</p>
 
 <p align="center">Designed for a optimized fluent and clear workflow.<br>
-Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color palette.</p>
+Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color palette.<br>
+Fits the <a href="https://atom.io/themes/nord-atom-syntax">nord-atom-syntax</a> theme.</p>
+
+![][scrot-top]
+> Icons provided by [file-icons](https://atom.io/packages/file-icons), minimap by [minimap](https://atom.io/packages/minimap).  
+Font is [Source Code Pro](https://adobe-fonts.github.io/source-code-pro) 20px.
 
 ## Getting started
 ### Installation
@@ -23,14 +28,25 @@ apm install nord-atom-ui
   1. Open *Settings > Themes*
   2. Select `Nord Atom` from the *UI Theme* drop-down menu
 
+## Features
+![][scrot-feature-modal-overlay]
+> Floating modal overlays with a big font type.
+
+![][scrcast-feature-smooth-transitions-components]
+> Smooth, non-obtrusive transitions for UI components.
+
+![][scrcast-feature-full-width-tabs]
+> Optimized tab layout by using the full editor width.
+
+![][scrcast-feature-tab-dirty-state]
+> Flat, colored dirty state indicator.
+
+## Package Support
+This theme contains optimized styles to achieve a consistent and uniform UI experience.   
+Detailed descriptions for supported packages can be found in the [project wiki](https://github.com/arcticicestudio/nord-atom-ui/wiki/Package-Support).
+
 ## Development
-[![](https://img.shields.io/badge/Changelog-v0.0.0-blue.svg)](https://github.com/arcticicestudio/nord-atom-ui/blob/v0.0.0/CHANGELOG.md)
-
-### Workflow
-This project follows the [gitflow](http://nvie.com/posts/a-successful-git-branching-model) branching model.
-
-### Specifications
-This project follows the [Arctic Versioning Specification (ArcVer)](https://github.com/arcticicestudio/arcver).
+[![](https://img.shields.io/badge/Changelog-0.0.0-blue.svg)](https://github.com/arcticicestudio/nord-atom-ui/blob/v0.0.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
 
 ### Contribution
 Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord-atom-ui/issues).
@@ -40,3 +56,9 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
 <p align="center"> <img src="http://arcticicestudio.com/favicon.ico" width=16 height=16/> Copyright &copy; 2016 Arctic Ice Studio</p>
 
 <p align="center"><a href="https://github.com/arcticicestudio/nord-atom-ui/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a></p>
+
+[scrcast-feature-full-width-tabs]: https://github.com/arcticicestudio/nord-atom-ui/blob/develop/assets/scrcast-feature-full-width-tabs.gif
+[scrcast-feature-smooth-transitions-components]: https://github.com/arcticicestudio/nord-atom-ui/blob/develop/assets/scrcast-feature-smooth-transitions-components.gif
+[scrcast-feature-tab-dirty-state]: https://github.com/arcticicestudio/nord-atom-ui/blob/develop/assets/scrcast-feature-tab-dirty-state.gif
+[scrot-feature-modal-overlay]: https://github.com/arcticicestudio/nord-atom-ui/blob/develop/assets/scrot-feature-modal-overlay.png
+[scrot-top]: https://github.com/arcticicestudio/nord-atom-ui/blob/develop/assets/scrot-top.png
