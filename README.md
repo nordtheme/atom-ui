@@ -56,8 +56,8 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
 
 <p align="center"><a href="https://github.com/arcticicestudio/nord-atom-ui/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a></p>
 
-[scrcast-feature-full-width-tabs]: https://github.com/arcticicestudio/nord-atom-ui/blob/develop/assets/scrcast-feature-full-width-tabs.gif
-[scrcast-feature-smooth-transitions-components]: https://github.com/arcticicestudio/nord-atom-ui/blob/develop/assets/scrcast-feature-smooth-transitions-components.gif
-[scrcast-feature-tab-dirty-state]: https://github.com/arcticicestudio/nord-atom-ui/blob/develop/assets/scrcast-feature-tab-dirty-state.gif
-[scrot-feature-modal-overlay]: https://github.com/arcticicestudio/nord-atom-ui/blob/develop/assets/scrot-feature-modal-overlay.png
-[scrot-top]: https://github.com/arcticicestudio/nord-atom-ui/blob/develop/assets/scrot-top.png
+[scrcast-feature-full-width-tabs]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-full-width-tabs.gif
+[scrcast-feature-smooth-transitions-components]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-smooth-transitions-components.gif
+[scrcast-feature-tab-dirty-state]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-tab-dirty-state.gif
+[scrot-feature-modal-overlay]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrot-feature-modal-overlay.png
+[scrot-top]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrot-top.png
