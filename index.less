@@ -2,12 +2,19 @@
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 title      Theme Index                                     +
 project    nord-atom-ui                                    +
-version                                                    +
+version    0.1.0                                           +
 repository https://github.com/arcticicestudio/nord-atom-ui +
 author     Arctic Ice Studio                               +
 email      development@arcticicestudio.com                 +
 copyright  Copyright (C) 2016                              +
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[Index]
+  > Core
+  > Components
+  > Package Support
+      Community
+      Core
 
 [References]
 Nord
@@ -19,3 +26,46 @@ Atom Documentation
 LESSCSS
   (http://lesscss.org)
 */
+/*+------+
+  + Core +
+  +------+*/
+@import (reference) "styles/ui-variables";
+@import (reference) "octicon-mixins";
+@import (reference) "styles/ui-mixins";
+@import "styles/ui-animations";
+
+/*+------------+
+  + Components +
+  +------------+*/
+@import "styles/atom";
+@import "styles/buttons";
+@import "styles/editor";
+@import "styles/inputs";
+@import "styles/lists";
+@import "styles/messages";
+@import "styles/notifications";
+@import "styles/overlays";
+@import "styles/panels";
+@import "styles/progress-indicator";
+@import "styles/settings-view";
+@import "styles/sites";
+@import "styles/status-bar";
+@import "styles/tabs";
+@import "styles/text";
+@import "styles/tooltips";
+@import "styles/tree-view";
+
+/*+-----------------+
+  + Package Support +
+  +-----------------+*/
+/*+--- Community ---+*/
+@import "styles/package-support/color-picker";
+
+/*+--- Core ---+*/
+@import "styles/package-support/autocomplete-plus";
+@import "styles/package-support/deprecation-cop";
+@import "styles/package-support/expose";
+@import "styles/package-support/markdown-preview";
+@import "styles/package-support/minimap";
+@import "styles/package-support/project-manager";
+@import "styles/package-support/timecop";

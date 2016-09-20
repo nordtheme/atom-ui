@@ -1,0 +1,80 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Progress Indicator                              +
+project    nord-atom-ui                                    +
+version    0.1.0                                           +
+repository https://github.com/arcticicestudio/nord-atom-ui +
+author     Arctic Ice Studio                               +
+email      development@arcticicestudio.com                 +
+copyright  Copyright (C) 2016                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[Index]
+  > Spinner
+  > Loading Bar
+*/
+
+/*+++++++++++
+  + Spinner +
+  +++++++++++*/
+.loading-spinner(@size) {
+  width: @size;
+  height: @size;
+  display: block;
+
+  background-image: url(images/octocat-spinner-128.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &.inline-block {
+    display: inline-block;
+  }
+}
+
+.loading-spinner-large {
+  .loading-spinner(64px);
+}
+
+.loading-spinner-medium {
+  .loading-spinner(48px);
+}
+
+.loading-spinner-small {
+  .loading-spinner(32px);
+}
+
+.loading-spinner-tiny {
+  .loading-spinner(20px);
+}
+
+/*+++++++++++++++
+  + Loading Bar +
+  +++++++++++++++*/
+progress {
+  -webkit-appearance: none;
+  height: 8px;
+  border-radius: @component-border-radius;
+  background-color: @input-background-color;
+  box-shadow: inset 0 0 0 1px @input-border-color;
+
+  &::-webkit-progress-bar {
+    background-color: transparent;
+  }
+
+  &::-webkit-progress-value {
+    border-radius: @component-border-radius;
+    background-color: @progress-loading-bar-background-color;
+  }
+
+  &:indeterminate {
+    background-image:
+       linear-gradient(-45deg, transparent 33%, @progress-loading-bar-background-color 33%,
+                               @progress-loading-bar-background-color 66%, transparent 66%);
+    background-size: 24px 8px, 100% 100%, 100% 100%;
+    -webkit-animation: progress-buffering 5s linear 6;
+  }
+}
+
+@-webkit-keyframes progress-buffering {
+   100% { background-position: -100px 0px; }
+}

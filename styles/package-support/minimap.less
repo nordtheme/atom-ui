@@ -1,0 +1,21 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Community Package Support: minimap              +
+project    nord-atom-ui                                    +
+version    0.1.0                                           +
+repository https://github.com/arcticicestudio/nord-atom-ui +
+author     Arctic Ice Studio                               +
+email      development@arcticicestudio.com                 +
+copyright  Copyright (C) 2016                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[References]
+Atom Packages
+  (https://atom.io/packages/minimap)
+*/
+atom-text-editor atom-text-editor-minimap::shadow .minimap-visible-area,
+atom-text-editor::shadow atom-text-editor-minimap::shadow .minimap-visible-area,
+html atom-text-editor-minimap::shadow .minimap-visible-area {
+  opacity: 0.6;
+  background-color: fade(@base-background-color, 30%);
+}

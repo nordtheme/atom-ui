@@ -1,0 +1,92 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Community Package Support: expose               +
+project    nord-atom-ui                                    +
+version    0.1.0                                           +
+repository https://github.com/arcticicestudio/nord-atom-ui +
+author     Arctic Ice Studio                               +
+email      development@arcticicestudio.com                 +
+copyright  Copyright (C) 2016                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[References]
+Atom Packages
+  (https://atom.io/packages/expose)
+*/
+atom-panel.modal.overlay.from-top.expose-panel {
+  top: 0 !important;
+  border: 0 !important;
+}
+
+.expose-top {
+  height: @component-line-height;
+
+  a {
+    &.icon-gear,
+    &.icon-x {
+      color: @base-border-color;
+      transition: all @transition-time ease;
+
+      &:before {
+        font-size: @component-icon-size !important;
+      }
+
+      &:hover {
+        color: @text-color;
+      }
+    }
+  }
+}
+
+.expose-view .tab-list .expose-tab {
+  border-radius: @component-border-radius !important;
+  .overlay-shadow();
+
+  &.active .tab-body {
+    border-style: solid;
+    border-color: @text-color-info !important;
+  }
+
+  .tab-body {
+    border-top: 1px solid @text-color-info !important;
+    cursor: default;
+  }
+
+  .tab-header {
+    transition: background @transition-time ease;
+    color: @text-color-subtle;
+
+    .title {
+      transition: color @transition-time ease;
+    }
+
+    .close-icon {
+      cursor: default;
+      height: 16px;
+      width: 16px;
+      color: @text-color-subtle;
+      transition-duration: @transition-time;
+      transition: color @transition-time ease;
+    }
+  }
+
+  &:hover {
+    .tab-header {
+      background: @tab-background-color-hover;
+
+      .title {
+        color: @text-color-highlight;
+      }
+
+      .close-icon {
+        &.icon-x {
+          color: @text-color-highlight;
+        }
+      }
+    }
+
+    .tab-body {
+      box-shadow: none;
+    }
+  }
+}

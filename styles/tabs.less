@@ -1,0 +1,176 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Status Bar                                      +
+project    nord-atom-ui                                    +
+version    0.1.0                                           +
+repository https://github.com/arcticicestudio/nord-atom-ui +
+author     Arctic Ice Studio                               +
+email      development@arcticicestudio.com                 +
+copyright  Copyright (C) 2016                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+.tab-bar {
+  background: @tab-bar-background-color;
+  width: 100%;
+  height: @tab-height;
+  padding: 0;
+  display: table;
+  table-layout: fixed;
+  -webkit-transform: scale(1);
+
+  .tab {
+    .text(normal);
+    text-align: center;
+    color: @text-color-subtle;
+    background: @tab-background-color;
+    display: table-cell;
+    width: 100%;
+    height: @tab-height;
+    line-height: @tab-height;
+    box-sizing: border-box;
+    border: 0;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    position: relative;
+    transition: color @transition-time ease, border @transition-time ease, background @transition-time ease;
+
+
+    .status-added,
+    .status-ignored,
+    .status-modified {
+      transition: color @transition-time ease, background @transition-time ease;
+
+      &:hover {
+        color: @text-color-highlight;
+      }
+    }
+
+    .status-modified {
+      color: @text-color-modified;
+    }
+
+    .status-added {
+      color: @text-color-added;
+    }
+
+    &:hover {
+      color: @text-color-highlight;
+      background: @tab-background-color-hover;
+
+      .close-icon {
+        display: block;
+      }
+    }
+  }
+
+  .tab.active,
+  .tab:hover.active {
+    color: @text-color-selected;
+    background: @tab-background-color-active;
+    width: 100%;
+
+    & .title {
+      color: @text-color-selected;
+      padding: 0;
+    }
+
+    .status-modified {
+      color: @text-color-modified;
+    }
+
+    .status-added {
+      color: @text-color-added;
+    }
+
+    .status-ignored {
+      color: @text-color-ignored;
+    }
+  }
+
+  .tab.active[data-type="MarkdownPreviewView"],
+  .tab.active[data-type="TextEditor"] {
+    color: @text-color;
+    background: @base-background-color;
+
+    .close-icon:before {
+      color: @text-color-subtle;
+    }
+
+    .close-icon:hover:before {
+      color: @text-color-highlight;
+    }
+  }
+
+  .tab.modified:hover .close-icon:before {
+    color: @text-color-info;
+  }
+
+  .tab.modified:not(:hover) .close-icon {
+    opacity: 1;
+    transform: scale(1);
+    top: (@tab-height - 6) / 2;
+    right: 8px;
+    display: inline-block;
+    border-color: @background-color-info;
+    border-width: 2px;
+  }
+
+  .tab .close-icon {
+    top: (@tab-height - 16) / 2;
+    height: 16px;
+    width: 16px;
+    left: auto;
+    right: 4px;
+    position: absolute;
+    transform: scale(0);
+    opacity: 0;
+    border-radius: 2px;
+    transition: transform @transition-time ease, color @transition-time ease, background @transition-time ease;
+
+    &:before {
+      color: @text-color-highlight;
+      font-size: 12px;
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 13px;
+      height: 12px;
+      transition: transform @transition-time ease, color @transition-time ease, background @transition-time ease;
+    }
+  }
+
+  .tab:hover .close-icon {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.platform-darwin {
+  .tab .close-icon {
+    left: 4px !important;
+    right: auto !important;
+  }
+
+  .tab.modified:not(:hover) .close-icon {
+    left: 8px !important;
+    right: auto !important;
+  }
+}
+@media (max-width: 1280px), (max-height: 800px) {
+  .tab-bar {
+    height: @tab-height * 0.8;
+
+    .tab {
+      height: @tab-height * 0.8;
+      line-height: @tab-height * 0.8;
+
+      &.modified:not(:hover) .close-icon {
+        top: ((@tab-height * 0.8) - 6) / 2;
+      }
+
+      .close-icon {
+        top: ((@tab-height * 0.8) - 16) / 2;
+      }
+    }
+  }
+}

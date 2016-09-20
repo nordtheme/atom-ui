@@ -1,0 +1,174 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Atom Core Styles                                +
+project    nord-atom-ui                                    +
+version    0.1.0                                           +
+repository https://github.com/arcticicestudio/nord-atom-ui +
+author     Arctic Ice Studio                               +
+email      development@arcticicestudio.com                 +
+copyright  Copyright (C) 2016                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[Index]
+  > find-and-replace
+  > Keybinding Badges
+  > Scrollbars
+  > Select Forms
+  > Text Editors
+*/
+/*++++++++++++++++++++
+  + find-and-replace +
+  ++++++++++++++++++++*/
+.project-find,
+.find-and-replace {
+  .btn-group-find .btn {
+    .button-variant(@text-color-info);
+  }
+
+  .btn-group-replace .btn,
+  .btn-group-replace-all .btn, {
+    .button-variant(@text-color-warning);
+  }
+
+  .find-meta-container {
+    top: 4px;
+
+    span {
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+/*++++++++++++++++++++
+  + Keybinding Badges +
+  ++++++++++++++++++++*/
+kbd {
+  .text(normal);
+  color: @tooltip-key-text-color;
+  background: @tooltip-key-background-color;
+  font-size: 90%;
+  border: 1px solid @tooltip-key-text-color;
+  border-radius: @component-border-radius/2;
+  margin-left: @component-padding/2;
+}
+
+/*++++++++++++++
+  + Scrollbars +
+  +++++++++++++*/
+.scrollbars-visible-always {
+  /deep/ ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  /deep/ ::-webkit-scrollbar-track,
+  /deep/ ::-webkit-scrollbar-corner {
+    background: @scrollbar-track-color;
+  }
+
+  /deep/ ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    border: 1px solid @scrollbar-border-color;
+    background: @scrollbar-color;
+    background-clip: content-box;
+
+    &:active,
+    &:hover {
+      border: 1px solid @scrollbar-border-color;
+      background: @scrollbar-color-active;
+    }
+  }
+
+  atom-text-editor,
+  .settings-view {
+    /deep/ ::-webkit-scrollbar-track,
+    /deep/ ::-webkit-scrollbar-corner {
+      background: @base-background-color;
+    }
+
+    /deep/ ::-webkit-scrollbar-thumb {
+      border: 1px solid @base-background-color;
+      background: @scrollbar-color;
+
+      &:active,
+      &:hover {
+        border: 1px solid @base-background-color;
+      }
+    }
+  }
+}
+
+/*++++++++++++++++
+  + Select Forms +
+  ++++++++++++++++*/
+select.form-control {
+  .button(@button-border-color);
+  .text(normal);
+  height: @input-height;
+  line-height: @input-height;
+  text-transform: none;
+
+  &:focus,
+  &:hover {
+   background: @button-border-color !important;
+   color: @base-background-color !important;
+  }
+}
+
+/*++++++++++++++++
+  + Text Editors +
+  ++++++++++++++++*/
+atom-text-editor[mini],
+atom-text-editor[mini]::shadow {
+  transition: all @transition-time ease;
+  background-color: @input-background-color;
+  border: 1px solid @input-background-color;
+  border-radius: @component-border-radius;
+  padding-left: @component-padding / 2;
+  height: @input-height;
+  max-height: @input-height;
+  line-height: @input-height - 2px;
+
+  &:hover {
+    border: 1px solid @input-border-color;
+    color: @text-color-highlight;
+  }
+
+  .text,
+  .source {
+    color: @text-color;
+  }
+
+  .placeholder-text {
+    .text(subtle);
+    height: @input-height;
+    line-height: @input-height - 2px;
+  }
+
+  .cursor {
+    border-color: @text-color-highlight;
+  }
+}
+
+atom-text-editor[mini].is-focused,
+atom-text-editor[mini].is-focused::shadow {
+  border: 1px solid @input-border-color;
+  background-color: @input-background-color-active;
+
+  .text,
+  .source {
+    color: @input-text-color-active;
+  }
+
+
+  &:hover {
+    border: 1px solid @text-color-highlight;
+    background-color: @input-background-color-active;
+    color: @text-color-highlight;
+  }
+
+  .selection .region {
+    background-color: fade(@background-color-highlight, 40%);
+  }
+}
