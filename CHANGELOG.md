@@ -2,6 +2,13 @@
 
 <p align="center"><img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://atom.io/themes/nord-atom-ui"><img src="https://img.shields.io/apm/v/nord-atom-ui.svg"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-ui/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-ui.svg"/></a></p>
 
+---
+
+# 0.3.0 (2016-09-29)
+## Features
+### Package Support
+  - Implemented support for the community package <img src="https://avatars1.githubusercontent.com/u/933880" width=16 height=16/>  [`build`](https://atom.io/packages/build) by [noseglid](https://github.com/noseglid) (@arcticicestudio, #34, dfebe0c650e1fa482db42336b18a91dd976588fe)
+
 # 0.2.0 (2016-09-20)
 ## Improvements
 ### Controls
