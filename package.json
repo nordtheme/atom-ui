@@ -12,6 +12,7 @@
   "bugs": {
     "url": "https://github.com/arcticicestudio/nord-atom-ui/issues"
   },
+  "main": "./lib/main",
   "keywords": [
     "arctic",
     "north",
