@@ -28,31 +28,14 @@ apm install nord-atom-ui
   2. Select `Nord Atom` from the *UI Theme* drop-down menu
 
 ## Features
-<p align="center">
-  <p align="center">
-    Floating modal overlays with a big font type.
-    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrot-feature-modal-overlay.png"/>
-  </p>
-  <p align="center">
-    Smooth, non-obtrusive transitions for UI components.
-    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-smooth-transitions-components.gif"/>
-  </p>
-  <p align="center">
-    Optimized tab layout by using the full editor width.
-    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-full-width-tabs.gif"/>
-  </p>
-  <p align="center">
-    Flat, colored dirty state indicator.
-    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-tab-dirty-state.gif"/>
-  </p>
-</p>
+<p align="center">Floating modal overlays with a big font type.<br/><img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrot-feature-modal-overlay.png"/><br/>Smooth, non-obtrusive transitions for UI components.<br/><img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-smooth-transitions-components.gif"/><br/>Optimized tab layout by using the full editor width.<br/><img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-full-width-tabs.gif"/><br/>Flat, colored dirty state indicator.<br/><img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-tab-dirty-state.gif"/><br/></p>
 
 ## Package Support
 This theme contains optimized styles to achieve a consistent and uniform UI experience.   
 Detailed descriptions for supported packages can be found in the [project wiki](https://github.com/arcticicestudio/nord-atom-ui/wiki/Package-Support).
 
 ## Development
-[![](https://img.shields.io/badge/Changelog-0.5.0-blue.svg)](https://github.com/arcticicestudio/nord-atom-ui/blob/v0.5.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
+[![](https://img.shields.io/badge/Changelog-0.5.1-blue.svg)](https://github.com/arcticicestudio/nord-atom-ui/blob/v0.5.1/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
 
 ### Contribution
 Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord-atom-ui/issues).
