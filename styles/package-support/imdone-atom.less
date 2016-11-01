@@ -1,0 +1,39 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Community Package Support: imdone-atom          +
+project    nord-atom-ui                                    +
+version    0.4.0                                           +
+repository https://github.com/arcticicestudio/nord-atom-ui +
+author     Arctic Ice Studio                               +
+email      development@arcticicestudio.com                 +
+copyright  Copyright (C) 2016                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[References]
+Atom Packages
+  (https://atom.io/packages/imdone-atom)
+*/
+.imdone-atom .imdone-board-wrapper .imdone-board {
+  .list {
+    background: @base-background-color;
+
+    .task {
+      background-color: @imdone-atom-task-background-color;
+      border: 1px solid @base-border-color;
+      transition: background @transition-time ease;
+
+      &.sortable-chosen {
+        background-color: @imdone-atom-task-background-color-draged;
+      }
+    }
+
+    .list-name {
+      .icon-trashcan {
+        transition: color @transition-time ease;
+
+        &:hover {
+          color: @text-color-removed;
+        }
+      }
+    }
+  }
+}

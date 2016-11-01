@@ -2,7 +2,7 @@
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 title      UI Variables                                    +
 project    nord-atom-ui                                    +
-version    0.3.0                                           +
+version    0.4.0                                           +
 repository https://github.com/arcticicestudio/nord-atom-ui +
 author     Arctic Ice Studio                               +
 email      development@arcticicestudio.com                 +
@@ -30,7 +30,9 @@ copyright  Copyright (C) 2016                              +
   > Configurations
   > Fonts
   > Package Support
-      Markdown Preview
+      build
+      imdone-atom
+      markdown-preview
   > Sizes
       Base
       Font
@@ -173,6 +175,10 @@ copyright  Copyright (C) 2016                              +
   +-----------------+*/
 /*+--- build ---+*/
 @build-terminal-background-color: darken(@nord0, 2%);
+
+/*+--- imdone-atom ---+*/
+@imdone-atom-task-background-color: darken(@nord1, 2%);
+@imdone-atom-task-background-color-draged: @nord1;
 
 /*+--- markdown-preview ---+*/
 @markdown-preview-background-color: @nord6;
