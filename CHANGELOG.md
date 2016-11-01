@@ -4,6 +4,11 @@
 
 ---
 
+# 0.5.1 (2016-11-01)
+## Bug Fixes
+### Documentation
+  - Fixed the `README` rendering caused by an malformed HTML tag chain
+
 # 0.5.0 (2016-11-01)
 ## Features
 ### Theme Settings
