@@ -4,6 +4,20 @@
 
 ---
 
+# 0.5.0 (2016-11-01)
+## Features
+### Theme Settings
+The theme can now be tweaked by using the theme settings which can be found by clicking on the gear icon next to the *UI Theme* drop-down. (@arcticicestudio, #36, 98dfc25d)  
+The following options are available:
+
+*Full-Width Tab Sizing*
+> In full width mode, tabs will fill the whole tab bar.
+
+![](https://cloud.githubusercontent.com/assets/7836623/19620532/ef4ef634-987f-11e6-89bd-5dda9bcade88.png)
+
+### Package Support
+  - Implemented support for the community package <img src="https://avatars1.githubusercontent.com/u/836375" width=16 height=16/>  [`script`](https://atom.io/packages/script) by [rgbkrk](https://github.com/rgbkrk) (@arcticicestudio, #37, b8f7e87a)
+
 # 0.4.0 (2016-11-01)
 ## Features
 ### Package Support
