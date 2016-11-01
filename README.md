@@ -1,6 +1,6 @@
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-atom-ui/develop/assets/nord-atom-ui-banner.svg"/></p>
 
-<p align="center"><img src="https://cdn.travis-ci.org/images/favicon-c566132d45ab1a9bcae64d8d90e4378a.svg" width=24 height=24/> <a href="https://travis-ci.org/arcticicestudio/nord-atom-ui"><img src="https://img.shields.io/travis/arcticicestudio/nord-atom-ui/develop.svg"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-ui/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-ui.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.1.0"><img src="https://img.shields.io/badge/Nord-v0.1.0-blue.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://atom.io/themes/nord-atom-ui"><img src="https://img.shields.io/apm/v/nord-atom-ui.svg"/></a> <a href="https://atom.io/themes/nord-atom-ui"><img src="https://img.shields.io/apm/dm/nord-atom-ui.svg"/></a></p>
+<p align="center"><img src="https://cdn.travis-ci.org/images/favicon-c566132d45ab1a9bcae64d8d90e4378a.svg" width=24 height=24/> <a href="https://travis-ci.org/arcticicestudio/nord-atom-ui"><img src="https://img.shields.io/travis/arcticicestudio/nord-atom-ui/develop.svg"/></a> <img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/nord-atom-ui"><img src="https://circleci.com/gh/arcticicestudio/nord-atom-ui.svg?style=shield&circle-token=49d495671d604d752f1f1be8da675e3150dbdc88"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-ui/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-ui.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.1.0"><img src="https://img.shields.io/badge/Nord-v0.1.0-blue.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://atom.io/themes/nord-atom-ui"><img src="https://img.shields.io/apm/v/nord-atom-ui.svg"/></a> <a href="https://atom.io/themes/nord-atom-ui"><img src="https://img.shields.io/apm/dm/nord-atom-ui.svg"/></a></p>
 
 <p align="center">A arctic, north-bluish clean and elegant minimal Atom UI.</p>
 
@@ -28,24 +28,31 @@ apm install nord-atom-ui
   2. Select `Nord Atom` from the *UI Theme* drop-down menu
 
 ## Features
-![][scrot-feature-modal-overlay]
-> Floating modal overlays with a big font type.
-
-![][scrcast-feature-smooth-transitions-components]
-> Smooth, non-obtrusive transitions for UI components.
-
-![][scrcast-feature-full-width-tabs]
-> Optimized tab layout by using the full editor width.
-
-![][scrcast-feature-tab-dirty-state]
-> Flat, colored dirty state indicator.
+<p align="center">
+  <p align="center">
+    Floating modal overlays with a big font type.
+    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrot-feature-modal-overlay.png"/>
+  </p>
+  <p align="center">
+    Smooth, non-obtrusive transitions for UI components.
+    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-smooth-transitions-components.gif"/>
+  </p>
+  <p align="center">
+    Optimized tab layout by using the full editor width.
+    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-full-width-tabs.gif"/>
+  </p>
+  <p align="center">
+    Flat, colored dirty state indicator.
+    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-tab-dirty-state.gif"/>
+  </p>
+</p>
 
 ## Package Support
 This theme contains optimized styles to achieve a consistent and uniform UI experience.   
 Detailed descriptions for supported packages can be found in the [project wiki](https://github.com/arcticicestudio/nord-atom-ui/wiki/Package-Support).
 
 ## Development
-[![](https://img.shields.io/badge/Changelog-0.4.0-blue.svg)](https://github.com/arcticicestudio/nord-atom-ui/blob/v0.4.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
+[![](https://img.shields.io/badge/Changelog-0.5.0-blue.svg)](https://github.com/arcticicestudio/nord-atom-ui/blob/v0.5.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
 
 ### Contribution
 Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord-atom-ui/issues).
@@ -56,8 +63,4 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
 
 <p align="center"><a href="https://github.com/arcticicestudio/nord-atom-ui/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a></p>
 
-[scrcast-feature-full-width-tabs]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-full-width-tabs.gif
-[scrcast-feature-smooth-transitions-components]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-smooth-transitions-components.gif
-[scrcast-feature-tab-dirty-state]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-tab-dirty-state.gif
-[scrot-feature-modal-overlay]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrot-feature-modal-overlay.png
 [scrot-top]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrot-top.png

@@ -12,6 +12,7 @@
   "bugs": {
     "url": "https://github.com/arcticicestudio/nord-atom-ui/issues"
   },
+  "main": "./lib/main",
   "keywords": [
     "arctic",
     "north",
@@ -24,5 +25,13 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+  },
+  "configSchema": {
+    "tabSizing": {
+      "title": "Full-Width Tab Sizing",
+      "description": "In full width mode, tabs will fill the whole tab bar.",
+      "type": "boolean",
+      "default": true
+    }
   }
 }

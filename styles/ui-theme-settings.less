@@ -1,0 +1,42 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      UI Theme Settings                               +
+project    nord-atom-ui                                    +
+repository https://github.com/arcticicestudio/nord-atom-ui +
+author     Arctic Ice Studio                               +
+email      development@arcticicestudio.com                 +
+copyright  Copyright (C) 2016                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[Index]
+  > Variables
+  > User Interface
+      Full-Width Tab Sizing
+*/
+/*+-----------+
+  + Variables +
+  +-----------+*/
+@theme-setting-tabsizing: ~'theme-@{ui-theme-name}-tabsizing';
+
+/*+----------------+
+  + User Interface +
+  +----------------+*/
+/*+--- Full Width Tab Sizing ---+*/
+[@{theme-setting-tabsizing}="nofullwidth"] {
+  .theme-setting-tabsizing-nofullwidth();
+}
+
+.theme-setting-tabsizing-nofullwidth() {
+  .tab-bar {
+    width: auto;
+
+    .tab {
+      width: inherit;
+    }
+
+    .tab.active,
+    .tab:hover.active {
+      width: inherit;
+    }
+  }
+}
