@@ -52,7 +52,7 @@ This theme contains optimized styles to achieve a consistent and uniform UI expe
 Detailed descriptions for supported packages can be found in the [project wiki](https://github.com/arcticicestudio/nord-atom-ui/wiki/Package-Support).
 
 ## Development
-[![](https://img.shields.io/badge/Changelog-0.4.0-blue.svg)](https://github.com/arcticicestudio/nord-atom-ui/blob/v0.4.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
+[![](https://img.shields.io/badge/Changelog-0.5.0-blue.svg)](https://github.com/arcticicestudio/nord-atom-ui/blob/v0.5.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
 
 ### Contribution
 Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord-atom-ui/issues).
