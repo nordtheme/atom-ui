@@ -28,24 +28,7 @@ apm install nord-atom-ui
   2. Select `Nord Atom` from the *UI Theme* drop-down menu
 
 ## Features
-<p align="center">
-  <p align="center">
-    Floating modal overlays with a big font type.
-    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrot-feature-modal-overlay.png"/>
-  </p>
-  <p align="center">
-    Smooth, non-obtrusive transitions for UI components.
-    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-smooth-transitions-components.gif"/>
-  </p>
-  <p align="center">
-    Optimized tab layout by using the full editor width.
-    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-full-width-tabs.gif"/>
-  </p>
-  <p align="center">
-    Flat, colored dirty state indicator.
-    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-tab-dirty-state.gif"/>
-  </p>
-</p>
+<p align="center">Floating modal overlays with a big font type.<br/><img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrot-feature-modal-overlay.png"/><br/>Smooth, non-obtrusive transitions for UI components.<br/><img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-smooth-transitions-components.gif"/><br/>Optimized tab layout by using the full editor width.<br/><img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-full-width-tabs.gif"/><br/>Flat, colored dirty state indicator.<br/><img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-tab-dirty-state.gif"/><br/></p>
 
 ## Package Support
 This theme contains optimized styles to achieve a consistent and uniform UI experience.   
