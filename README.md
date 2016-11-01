@@ -28,17 +28,24 @@ apm install nord-atom-ui
   2. Select `Nord Atom` from the *UI Theme* drop-down menu
 
 ## Features
-![][scrot-feature-modal-overlay]
-> Floating modal overlays with a big font type.
-
-![][scrcast-feature-smooth-transitions-components]
-> Smooth, non-obtrusive transitions for UI components.
-
-![][scrcast-feature-full-width-tabs]
-> Optimized tab layout by using the full editor width.
-
-![][scrcast-feature-tab-dirty-state]
-> Flat, colored dirty state indicator.
+<p align="center">
+  <p align="center">
+    Floating modal overlays with a big font type.
+    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrot-feature-modal-overlay.png"/>
+  </p>
+  <p align="center">
+    Smooth, non-obtrusive transitions for UI components.
+    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-smooth-transitions-components.gif"/>
+  </p>
+  <p align="center">
+    Optimized tab layout by using the full editor width.
+    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-full-width-tabs.gif"/>
+  </p>
+  <p align="center">
+    Flat, colored dirty state indicator.
+    <img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-tab-dirty-state.gif"/>
+  </p>
+</p>
 
 ## Package Support
 This theme contains optimized styles to achieve a consistent and uniform UI experience.   
@@ -56,8 +63,4 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
 
 <p align="center"><a href="https://github.com/arcticicestudio/nord-atom-ui/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a></p>
 
-[scrcast-feature-full-width-tabs]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-full-width-tabs.gif
-[scrcast-feature-smooth-transitions-components]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-smooth-transitions-components.gif
-[scrcast-feature-tab-dirty-state]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrcast-feature-tab-dirty-state.gif
-[scrot-feature-modal-overlay]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrot-feature-modal-overlay.png
 [scrot-top]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-ui/develop/assets/scrot-top.png
