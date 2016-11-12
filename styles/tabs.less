@@ -33,15 +33,10 @@ copyright  Copyright (C) 2016                              +
     position: relative;
     transition: color @transition-time ease, border @transition-time ease, background @transition-time ease;
 
-
     .status-added,
     .status-ignored,
     .status-modified {
       transition: color @transition-time ease, background @transition-time ease;
-
-      &:hover {
-        color: @text-color-highlight;
-      }
     }
 
     .status-modified {
@@ -65,10 +60,11 @@ copyright  Copyright (C) 2016                              +
   .tab.active,
   .tab:hover.active {
     color: @text-color-selected;
-    background: @tab-background-color-active;
+    background-color: @tab-background-color-active;
     width: 100%;
+    //border-bottom: 1px solid @nord8;
 
-    & .title {
+    &.title {
       color: @text-color-selected;
       padding: 0;
     }
@@ -84,17 +80,11 @@ copyright  Copyright (C) 2016                              +
     .status-ignored {
       color: @text-color-ignored;
     }
-  }
-
-  .tab.active[data-type="MarkdownPreviewView"],
-  .tab.active[data-type="TextEditor"] {
-    color: @text-color;
-    background: @base-background-color;
 
     .close-icon:before {
       color: @text-color-subtle;
     }
-
+  
     .close-icon:hover:before {
       color: @text-color-highlight;
     }
@@ -155,6 +145,7 @@ copyright  Copyright (C) 2016                              +
     right: auto !important;
   }
 }
+
 @media (max-width: 1280px), (max-height: 800px) {
   .tab-bar {
     height: @tab-height * 0.8;
