@@ -1,0 +1,43 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Community Package Support: minimap-git-diff     +
+project    nord-atom-ui                                    +
+repository https://github.com/arcticicestudio/nord-atom-ui +
+author     Arctic Ice Studio                               +
+email      development@arcticicestudio.com                 +
+copyright  Copyright (C) 2016                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[References]
+Atom Packages
+  (https://atom.io/packages/minimap-git-diff)
+*/
+.minimap {
+  .line {
+    .git-line-modified {
+      background: fadeOut(@text-color-modified, 50%);
+    }
+
+    .git-line-added {
+      background: fadeOut(@text-color-added, 50%);
+    }
+
+    .git-line-removed {
+      background: fadeOut(@text-color-removed, 50%);
+    }
+  }
+
+  .gutter {
+    .git-line-modified {
+      background: @text-color-modified;
+    }
+
+    .git-line-added {
+      background: @text-color-added;
+    }
+
+    .git-line-removed {
+      background: @text-color-removed;
+    }
+  }
+}
