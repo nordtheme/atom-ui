@@ -62,7 +62,10 @@ copyright  Copyright (C) 2016                              +
     color: @text-color-selected;
     background-color: @tab-background-color-active;
     width: 100%;
-    //border-bottom: 1px solid @nord8;
+
+    &:only-child {
+      background-color: @base-background-color;
+    }
 
     &.title {
       color: @text-color-selected;
