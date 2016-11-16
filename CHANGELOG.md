@@ -4,7 +4,19 @@
 
 ---
 
-# 0.6.0 (2016-11-12)
+# 0.8.0 (2016-11-16)
+## Features
+### Theme Settings
+Implemented a new theme setting to use darker colors for focused forms like the `find-and-replace`- and `project-search` inputs. (@arcticicestudio, #43, 38d1ca07)
+
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/20313180/636b4f48-ab56-11e6-8502-ad99f163c94b.png"/><br><strong>With default snow-inspired focus effect</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20311958/f694259c-ab51-11e6-8c2e-cf9dae01b774.gif"/><br><strong>With enabled setting for darker focus color effect</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20318435/871389f6-ab6a-11e6-8ab4-f33a5a63ae78.gif"/></p>
+
+## Bug Fixes
+Fixed regexp groups in the `find-and-replace` inputs getting obscured if the current syntax highlighting theme uses light colors for these pattern. (@arcticicestudio, #39, fca9d9f5)
+
+<p align="center"><strong>Selected characters are now colored correctly</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20318449/998233c6-ab6a-11e6-9242-b1fca03bee9b.gif"/><br><strong>With enabled "Darker Form-Focusing Effect" theme setting the current syntax highlighting remains preserved</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20318452/9ccd68fc-ab6a-11e6-8886-1c2cacce14cf.gif"/></p>
+
+# 0.7.0 (2016-11-12)
 ## Features
 ### Package Support
 Implemented support for the community package <img src="https://avatars3.githubusercontent.com/u/25722" width=16 height=16/>  [`tool-bar`](https://atom.io/packages/tool-bar) by [suda](https://github.com/suda) to make the tool-bar package fit more with the surrounding UI. (@arcticicestudio, #41, 010119c6)  
@@ -13,6 +25,11 @@ Implemented support for the community package <img src="https://avatars3.githubu
 
 Implemented support for the community package <img src="https://avatars3.githubusercontent.com/u/7209979" width=16 height=16/>  [`minimap-git-diff`](https://atom.io/packages/minimap-git-diff) by [atom-minimap](https://github.com/atom-minimap) to make the minimap-git-diff package fit more with the theme color palette. (@arcticicestudio, #42, e5251f7)  
 <p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20238616/dcff8702-a8ef-11e6-9e7b-19e9aa813e87.png"/><br><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20238617/e3f5c8aa-a8ef-11e6-8acb-56e4acf568b8.png"/></p>
+
+## Improvements
+The current active tab is now colored with a slightly lighter background color to differ from inactive tabs. (@arcticicestudio, #40, bc213c13)
+
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/20320075/d9b84d6c-ab70-11e6-87ea-13707830719b.png"/></p>
 
 # 0.5.1 (2016-11-01)
 ## Bug Fixes

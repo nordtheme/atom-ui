@@ -20,6 +20,13 @@ copyright  Copyright (C) 2016                              +
   ++++++++++++++++++++*/
 .project-find,
 .find-and-replace {
+  atom-text-editor[mini].is-focused,
+  atom-text-editor[mini].is-focused::shadow {
+    .source .regexp {
+      color: @base-background-color;
+    }
+  }
+
   .btn-group-find .btn {
     .button-variant(@text-color-info);
   }

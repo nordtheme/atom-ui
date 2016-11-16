@@ -1,7 +1,7 @@
 {
   "name": "nord-atom-ui",
   "theme": "ui",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "A arctic, north-bluish clean and elegant minimal Atom UI.",
   "author": {
     "name": "Arctic Ice Studio",
@@ -27,6 +27,12 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "configSchema": {
+    "darkerFormFocusEffect": {
+      "title": "Darker Form-Focusing Effect",
+      "description": "Use darker colors for focused forms instead of the snow-inspired light effect.",
+      "type": "boolean",
+      "default": false
+    },
     "tabSizing": {
       "title": "Full-Width Tab Sizing",
       "description": "In full width mode, tabs will fill the whole tab bar.",
