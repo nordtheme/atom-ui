@@ -7,20 +7,51 @@ author     Arctic Ice Studio                               +
 email      development@arcticicestudio.com                 +
 copyright  Copyright (C) 2016                              +
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-[Index]
-  > Variables
-  > User Interface
-      Full-Width Tab Sizing
 */
 /*+-----------+
-  + Variables +
-  +-----------+*/
++ Variables +
++-----------+*/
+@theme-setting-formfocuseffect: ~'theme-@{ui-theme-name}-form-focus-effect';
 @theme-setting-tabsizing: ~'theme-@{ui-theme-name}-tabsizing';
 
+@theme-setting-formfocuseffect-background-color: @nord3;
+@theme-setting-formfocuseffect-border-color: @nord3;
+@theme-setting-formfocuseffect-text-selection-color: @nord1;
+
+
+
 /*+----------------+
-  + User Interface +
-  +----------------+*/
++ User Interface +
++----------------+*/
+/*+--- Darker Form-Focusing Effect ---+*/
+[@{theme-setting-formfocuseffect}="nosnowlight"] {
+  .theme-setting-formfocuseffect-nosnowlight();
+}
+
+.theme-setting-formfocuseffect-nosnowlight() {
+  .find-and-replace,
+  .settings-view {
+    atom-text-editor[mini].is-focused,
+    atom-text-editor[mini].is-focused::shadow {
+      border: 1px solid @theme-setting-formfocuseffect-border-color;
+      background-color: @theme-setting-formfocuseffect-background-color;
+      
+      .text,
+      .source {
+        color: @text-color;
+        
+        .regexp {
+          color: @text-color;
+        }
+      }
+      
+      .highlights .region {
+        background-color: @theme-setting-formfocuseffect-text-selection-color;
+      }
+    }
+  }
+}
+
 /*+--- Full Width Tab Sizing ---+*/
 [@{theme-setting-tabsizing}="nofullwidth"] {
   .theme-setting-tabsizing-nofullwidth();
@@ -29,11 +60,11 @@ copyright  Copyright (C) 2016                              +
 .theme-setting-tabsizing-nofullwidth() {
   .tab-bar {
     width: auto;
-
+    
     .tab {
       width: inherit;
     }
-
+    
     .tab.active,
     .tab:hover.active {
       width: inherit;
