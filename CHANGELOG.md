@@ -4,6 +4,22 @@
 
 ---
 
+# 0.8.1 (2016-11-23)
+## Bug Fixes
+Fixed unreadable bold-formated text shown in the [`markdown-preview`](https://atom.io/packages/markdown-preview) tab.
+The text color was too bright and therefore was not be seen. (@@ToxidoLiu, #45, 9f6ccf16)
+
+<p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/5713865/20552163/100cff76-b183-11e6-9955-98ba3c37b2b2.png"/></p>
+
+<p align="center"><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20575493/ca7e7dae-b1b9-11e6-9fab-3e8baa3c4303.png"/></p>
+
+Fixed unreadable plain text in [`markdown-preview`](https://atom.io/packages/markdown-preview) code blocks.  
+The text color was equal the to the background color and was therefore not be seen. (@arcticicestudio, #46, 6a55c98d)
+
+<p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20575212/96694f7c-b1b8-11e6-8baf-f5bb255c9471.png"/><br><img src="https://cloud.githubusercontent.com/assets/7836623/20575216/996ff6ee-b1b8-11e6-8e56-abee385852cd.gif"/></p>
+
+<p align="center"><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20575286/ef3f6640-b1b8-11e6-9f20-61cb01259544.png"/></p>
+
 # 0.8.0 (2016-11-16)
 ## Features
 ### Theme Settings
