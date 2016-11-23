@@ -79,6 +79,13 @@ GitHub
     border-radius: @component-border-radius;
   }
 
+  atom-text-editor[data-grammar="text plain"],
+  atom-text-editor[data-grammar="text plain"]::shadow {
+    .meta {
+      color: @markdown-preview-text-color;
+    }
+  }
+
   blockquote {
     border-left-color: @markdown-preview-border-color;
   }
@@ -105,6 +112,10 @@ GitHub
 
   hr {
     border: 1px solid @markdown-preview-border-color;
+  }
+
+  strong {
+    color: @markdown-preview-text-color;
   }
 
   table {
