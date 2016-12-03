@@ -20,8 +20,7 @@ copyright  Copyright (C) 2016                              +
   ++++++++++++++++++++*/
 .project-find,
 .find-and-replace {
-  atom-text-editor[mini].is-focused,
-  atom-text-editor[mini].is-focused::shadow {
+  atom-text-editor[mini].is-focused {
     .source .regexp {
       color: @base-background-color;
     }
@@ -125,8 +124,7 @@ select.form-control {
 /*++++++++++++++++
   + Text Editors +
   ++++++++++++++++*/
-atom-text-editor[mini],
-atom-text-editor[mini]::shadow {
+atom-text-editor[mini] {
   transition: all @transition-time ease;
   background-color: @input-background-color;
   border: 1px solid @input-background-color;
@@ -157,8 +155,7 @@ atom-text-editor[mini]::shadow {
   }
 }
 
-atom-text-editor[mini].is-focused,
-atom-text-editor[mini].is-focused::shadow {
+atom-text-editor[mini].is-focused {
   border: 1px solid @input-border-color-active;
   background-color: @input-background-color-active;
 
