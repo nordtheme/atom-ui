@@ -38,6 +38,14 @@
       "description": "In full width mode, tabs will fill the whole tab bar.",
       "type": "boolean",
       "default": true
+    },
+    "uiFontSize": {
+      "title": "UI Font Size",
+      "description": "Change the size of the UI font. The minimal size is 8 and the maximal size is 20.",
+      "type": "integer",
+      "minimum": 8,
+      "maximum": 20,
+      "default": 14
     }
   }
 }
