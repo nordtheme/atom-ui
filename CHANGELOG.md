@@ -4,76 +4,94 @@
 
 ---
 
-# 0.9.0 (2016-12-01)
+# 0.10.0
+*2017-01-24*
+
+**Please note that the minimal version for this theme is now >=1.13.0 due to the Atom theme API change!**
+
 ## Improvements
-Single tabs are now colored with the base background color to better match the theme ambience. (@arcticicestudio, #44, ee8a0c60)
+❯ Migrated to the new Atom theme API.  
+Starting from Atom version 1.13, the contents of `atom-text-editor` [elements are no longer encapsulated within a shadow DOM boundary](http://blog.atom.io/2016/11/14/removing-shadow-dom-boundary-from-text-editor-elements.html).  
+This means the `:host` and `::shadow` pseudo-selectors should be completely removed and all syntax selectors should be prepended with `syntax--`.
+To prevent breakage with existing style sheets, Atom will automatically upgrade selectors for versions less or equal to 1.12. (@arcticicestudio, #31, 42d7f7ba)
+
+![](http://blog.atom.io/img/posts/shadow-dom.png)
+
+# 0.9.0
+*2016-12-01*
+## Improvements
+❯ Single tabs are now colored with the base background color to better match the theme ambience. (@arcticicestudio, #44, ee8a0c60)
 
 <p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20312911/645613e4-ab55-11e6-8d53-2d38f70627b8.png"/></p>
 <p align="center"><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20313106/1be50772-ab56-11e6-9315-3e93ae14d9fb.gif"/></p>
 
-The background color of selected list items is now slightly darker (`nord2` to `nord1`) to better fit the darker ambience and improve the text visibility. (@arcticicestudio, #48, ddba34d5)
+❯ The background color of selected list items is now slightly darker (`nord2` to `nord1`) to better fit the darker ambience and improve the text visibility. (@arcticicestudio, #48, ddba34d5)
 
 <p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20810519/56b36cb6-b80a-11e6-9ba4-3364796a8cdb.png"/></p>
 <p align="center"><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20810543/66f4cca0-b80a-11e6-817b-c52b596584b6.png"/></p>
 
 ## Bug Fixes
-Selected folders in `tree-view` had a transparent background color unlike files which made it hard to navigate using the keyboard.
+❯ Selected folders in `tree-view` had a transparent background color unlike files which made it hard to navigate using the keyboard.
 This has been changed to colorize the background color of selected folders. (@marza91, #47, 6c2c13ea)
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/20810298/89cd19ea-b809-11e6-9f5b-da198429df80.png"/><br><img src="https://cloud.githubusercontent.com/assets/7836623/20810306/8d402f72-b809-11e6-8609-2339974c20d7.gif"/></p>
 
-# 0.8.1 (2016-11-23)
+# 0.8.1
+*2016-11-23*
 ## Bug Fixes
-Fixed unreadable bold-formated text shown in the [`markdown-preview`](https://atom.io/packages/markdown-preview) tab.
+❯ Fixed unreadable bold-formated text shown in the [`markdown-preview`](https://atom.io/packages/markdown-preview) tab.
 The text color was too bright and therefore was not be seen. (@ToxidoLiu, #45, 9f6ccf16)
 
 <p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/5713865/20552163/100cff76-b183-11e6-9955-98ba3c37b2b2.png"/></p>
 
 <p align="center"><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20575493/ca7e7dae-b1b9-11e6-9fab-3e8baa3c4303.png"/></p>
 
-Fixed unreadable plain text in [`markdown-preview`](https://atom.io/packages/markdown-preview) code blocks.  
+❯ Fixed unreadable plain text in [`markdown-preview`](https://atom.io/packages/markdown-preview) code blocks.  
 The text color was equal the to the background color and was therefore not be seen. (@arcticicestudio, #46, 6a55c98d)
 
 <p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20575212/96694f7c-b1b8-11e6-8baf-f5bb255c9471.png"/><br><img src="https://cloud.githubusercontent.com/assets/7836623/20575216/996ff6ee-b1b8-11e6-8e56-abee385852cd.gif"/></p>
 
 <p align="center"><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20575286/ef3f6640-b1b8-11e6-9f20-61cb01259544.png"/></p>
 
-# 0.8.0 (2016-11-16)
+# 0.8.0
+*2016-11-16*
 ## Features
 ### Theme Settings
-Implemented a new theme setting to use darker colors for focused forms like the `find-and-replace`- and `project-search` inputs. (@arcticicestudio, #43, 38d1ca07)
+❯ Implemented a new theme setting to use darker colors for focused forms like the `find-and-replace`- and `project-search` inputs. (@arcticicestudio, #43, 38d1ca07)
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/20313180/636b4f48-ab56-11e6-8502-ad99f163c94b.png"/><br><strong>With default snow-inspired focus effect</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20311958/f694259c-ab51-11e6-8c2e-cf9dae01b774.gif"/><br><strong>With enabled setting for darker focus color effect</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20318435/871389f6-ab6a-11e6-8ab4-f33a5a63ae78.gif"/></p>
 
 ## Bug Fixes
-Fixed regexp groups in the `find-and-replace` inputs getting obscured if the current syntax highlighting theme uses light colors for these pattern. (@arcticicestudio, #39, fca9d9f5)
+❯ Fixed regexp groups in the `find-and-replace` inputs getting obscured if the current syntax highlighting theme uses light colors for these pattern. (@arcticicestudio, #39, fca9d9f5)
 
 <p align="center"><strong>Selected characters are now colored correctly</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20318449/998233c6-ab6a-11e6-9242-b1fca03bee9b.gif"/><br><strong>With enabled "Darker Form-Focusing Effect" theme setting the current syntax highlighting remains preserved</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20318452/9ccd68fc-ab6a-11e6-8886-1c2cacce14cf.gif"/></p>
 
-# 0.7.0 (2016-11-12)
+# 0.7.0
+*2016-11-12*
 ## Features
 ### Package Support
-Implemented support for the community package <img src="https://avatars3.githubusercontent.com/u/25722" width=16 height=16/>  [`tool-bar`](https://atom.io/packages/tool-bar) by [suda](https://github.com/suda) to make the tool-bar package fit more with the surrounding UI. (@arcticicestudio, #41, 010119c6)  
+❯ Implemented support for the community package <img src="https://avatars3.githubusercontent.com/u/25722" width=16 height=16/>  [`tool-bar`](https://atom.io/packages/tool-bar) by [suda](https://github.com/suda) to make the tool-bar package fit more with the surrounding UI. (@arcticicestudio, #41, 010119c6)  
 <p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20238574/f3ec4780-a8ee-11e6-8b4d-45b28ea5e6bb.png"/><br><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20238582/03dae0c0-a8ef-11e6-9cbd-2d8eb4785143.png"/></p>
 
-
-Implemented support for the community package <img src="https://avatars3.githubusercontent.com/u/7209979" width=16 height=16/>  [`minimap-git-diff`](https://atom.io/packages/minimap-git-diff) by [atom-minimap](https://github.com/atom-minimap) to make the minimap-git-diff package fit more with the theme color palette. (@arcticicestudio, #42, e5251f7)  
+❯ Implemented support for the community package <img src="https://avatars3.githubusercontent.com/u/7209979" width=16 height=16/>  [`minimap-git-diff`](https://atom.io/packages/minimap-git-diff) by [atom-minimap](https://github.com/atom-minimap) to make the minimap-git-diff package fit more with the theme color palette. (@arcticicestudio, #42, e5251f7)  
 <p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20238616/dcff8702-a8ef-11e6-9e7b-19e9aa813e87.png"/><br><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20238617/e3f5c8aa-a8ef-11e6-8acb-56e4acf568b8.png"/></p>
 
 ## Improvements
-The current active tab is now colored with a slightly lighter background color to differ from inactive tabs. (@arcticicestudio, #40, bc213c13)
+❯ The current active tab is now colored with a slightly lighter background color to differ from inactive tabs. (@arcticicestudio, #40, bc213c13)
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/20320075/d9b84d6c-ab70-11e6-87ea-13707830719b.png"/></p>
 
-# 0.5.1 (2016-11-01)
+# 0.5.1
+*2016-11-01*
 ## Bug Fixes
 ### Documentation
-  - Fixed the `README` rendering caused by an malformed HTML tag chain
+❯ Fixed the `README` rendering caused by an malformed HTML tag chain
 
-# 0.5.0 (2016-11-01)
+# 0.5.0
+*2016-11-01*
 ## Features
 ### Theme Settings
-The theme can now be tweaked by using the theme settings which can be found by clicking on the gear icon next to the *UI Theme* drop-down. (@arcticicestudio, #36, 98dfc25d)  
+❯ The theme can now be tweaked by using the theme settings which can be found by clicking on the gear icon next to the *UI Theme* drop-down. (@arcticicestudio, #36, 98dfc25d)  
 The following options are available:
 
 *Full-Width Tab Sizing*
@@ -82,28 +100,32 @@ The following options are available:
 ![](https://cloud.githubusercontent.com/assets/7836623/19620532/ef4ef634-987f-11e6-89bd-5dda9bcade88.png)
 
 ### Package Support
-  - Implemented support for the community package <img src="https://avatars1.githubusercontent.com/u/836375" width=16 height=16/>  [`script`](https://atom.io/packages/script) by [rgbkrk](https://github.com/rgbkrk) (@arcticicestudio, #37, b8f7e87a)
+❯ Implemented support for the community package <img src="https://avatars1.githubusercontent.com/u/836375" width=16 height=16/>  [`script`](https://atom.io/packages/script) by [rgbkrk](https://github.com/rgbkrk) (@arcticicestudio, #37, b8f7e87a)
 
-# 0.4.0 (2016-11-01)
+# 0.4.0
+*2016-11-01*
 ## Features
 ### Package Support
-  - Implemented support for the community package <img src="https://avatars3.githubusercontent.com/u/6087523" width=16 height=16/>  [`imdone-atom`](https://atom.io/packages/imdone-atom) by [imdone](https://github.com/imdone) (@arcticicestudio, #38, 4214c7fa)
+❯ Implemented support for the community package <img src="https://avatars3.githubusercontent.com/u/6087523" width=16 height=16/>  [`imdone-atom`](https://atom.io/packages/imdone-atom) by [imdone](https://github.com/imdone) (@arcticicestudio, #38, 4214c7fa)
 
-# 0.3.0 (2016-09-29)
+# 0.3.0
+*2016-09-29*
 ## Features
 ### Package Support
-  - Implemented support for the community package <img src="https://avatars1.githubusercontent.com/u/933880" width=16 height=16/>  [`build`](https://atom.io/packages/build) by [noseglid](https://github.com/noseglid) (@arcticicestudio, #34, dfebe0c6)
+❯ Implemented support for the community package <img src="https://avatars1.githubusercontent.com/u/933880" width=16 height=16/>  [`build`](https://atom.io/packages/build) by [noseglid](https://github.com/noseglid) (@arcticicestudio, #34, dfebe0c6)
 
-# 0.2.0 (2016-09-20)
+# 0.2.0
+*2016-09-20*
 ## Improvements
 ### Controls
-  - The background color of checked checkboxes is now the accent color instead of lime/green (@arcticicestudio, #33, 55b0be1f)
+❯ The background color of checked checkboxes is now the accent color instead of lime/green (@arcticicestudio, #33, 55b0be1f)
 
 ## Bugfixes
 ### Documentation
-  - Fixed all unrendered images in the [atom.io](https://atom.io/themes/nord-atom-ui) package README by using the `https://raw.githubusercontent.com` domain (@arcticicestudio, #32, 9db9fed2)
+❯ Fixed all unrendered images in the [atom.io](https://atom.io/themes/nord-atom-ui) package README by using the `https://raw.githubusercontent.com` domain (@arcticicestudio, #32, 9db9fed2)
 
-# 0.1.0 (2016-09-20)
+# 0.1.0
+*2016-09-20*
 **Initial APM package release version!**  
 *Closes the [APM Package Release](https://github.com/arcticicestudio/nord-atom-ui/milestone/1) milestone.*
 
