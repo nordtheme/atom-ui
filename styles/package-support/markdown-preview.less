@@ -22,8 +22,7 @@ GitHub
  + GitHub Style +
  +--------------+*/
 .markdown-preview[data-use-github-style] {
-  atom-text-editor,
-  atom-text-editor::shadow {
+  atom-text-editor {
     padding: 16px;
 
     .editor--private {
@@ -34,7 +33,6 @@ GitHub
   }
 
   atom-text-editor,
-  atom-text-editor::shadow,
   code {
     background-color: #F7F7F7 !important;
     border-radius: 3px;
@@ -61,8 +59,7 @@ GitHub
     color: @text-color-info;
   }
 
-  atom-text-editor,
-  atom-text-editor::shadow {
+  atom-text-editor {
     padding: @component-padding*1.5;
 
     .editor--private {
@@ -73,14 +70,12 @@ GitHub
   }
 
   atom-text-editor,
-  atom-text-editor::shadow,
   code {
     background-color: @markdown-preview-code-background-color !important;
     border-radius: @component-border-radius;
   }
 
-  atom-text-editor[data-grammar="text plain"],
-  atom-text-editor[data-grammar="text plain"]::shadow {
+  atom-text-editor[data-grammar="text plain"] {
     .meta {
       color: @markdown-preview-text-color;
     }

@@ -20,8 +20,7 @@ copyright  Copyright (C) 2016                              +
   ++++++++++++++++++++*/
 .project-find,
 .find-and-replace {
-  atom-text-editor[mini].is-focused,
-  atom-text-editor[mini].is-focused::shadow {
+  atom-text-editor[mini].is-focused {
     .source .regexp {
       color: @base-background-color;
     }
@@ -63,17 +62,17 @@ kbd {
   + Scrollbars +
   +++++++++++++*/
 .scrollbars-visible-always {
-  /deep/ ::-webkit-scrollbar {
+  ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
   }
 
-  /deep/ ::-webkit-scrollbar-track,
-  /deep/ ::-webkit-scrollbar-corner {
+  ::-webkit-scrollbar-track,
+  ::-webkit-scrollbar-corner {
     background: @scrollbar-track-color;
   }
 
-  /deep/ ::-webkit-scrollbar-thumb {
+  ::-webkit-scrollbar-thumb {
     border-radius: 5px;
     border: 1px solid @scrollbar-border-color;
     background: @scrollbar-color;
@@ -88,12 +87,12 @@ kbd {
 
   atom-text-editor,
   .settings-view {
-    /deep/ ::-webkit-scrollbar-track,
-    /deep/ ::-webkit-scrollbar-corner {
+    ::-webkit-scrollbar-track,
+    ::-webkit-scrollbar-corner {
       background: @base-background-color;
     }
 
-    /deep/ ::-webkit-scrollbar-thumb {
+    ::-webkit-scrollbar-thumb {
       border: 1px solid @base-background-color;
       background: @scrollbar-color;
 
@@ -125,8 +124,7 @@ select.form-control {
 /*++++++++++++++++
   + Text Editors +
   ++++++++++++++++*/
-atom-text-editor[mini],
-atom-text-editor[mini]::shadow {
+atom-text-editor[mini] {
   transition: all @transition-time ease;
   background-color: @input-background-color;
   border: 1px solid @input-background-color;
@@ -136,13 +134,8 @@ atom-text-editor[mini]::shadow {
   max-height: @input-height;
   line-height: @input-height - 2px;
 
-  &:hover {
-    border: 1px solid @input-border-color;
-    color: @text-color-highlight;
-  }
-
-  .text,
-  .source {
+  .syntax--text,
+  .syntax--source {
     color: @text-color;
   }
 
@@ -157,13 +150,12 @@ atom-text-editor[mini]::shadow {
   }
 }
 
-atom-text-editor[mini].is-focused,
-atom-text-editor[mini].is-focused::shadow {
+atom-text-editor[mini].is-focused {
   border: 1px solid @input-border-color-active;
   background-color: @input-background-color-active;
 
-  .text,
-  .source {
+  .syntax--text,
+  .syntax--source {
     color: @input-text-color-active;
   }
 

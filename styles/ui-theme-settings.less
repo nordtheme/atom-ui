@@ -29,13 +29,12 @@ copyright  Copyright (C) 2016                              +
 .theme-setting-formfocuseffect-nosnowlight() {
   .find-and-replace,
   .settings-view {
-    atom-text-editor[mini].is-focused,
-    atom-text-editor[mini].is-focused::shadow {
+    atom-text-editor[mini].is-focused {
       border: 1px solid @theme-setting-formfocuseffect-border-color;
       background-color: @theme-setting-formfocuseffect-background-color;
       
-      .text,
-      .source {
+      .syntax--text,
+      .syntax--source {
         color: @text-color;
         
         .regexp {
