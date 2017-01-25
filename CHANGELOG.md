@@ -1,8 +1,15 @@
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-atom-ui/develop/assets/nord-atom-ui-banner.svg"/></p>
 
-<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-ui/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-ui.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://atom.io/themes/nord-atom-ui"><img src="https://img.shields.io/apm/v/nord-atom-ui.svg"/></a> <a href="https://atom.io/themes/nord-atom-ui"><img src="https://img.shields.io/apm/dm/nord-atom-ui.svg"/></a></p>
+<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-ui/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-ui.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-blue.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://github.com/atom/atom/releases/tag/v1.13.0"><img src="https://img.shields.io/badge/Atom->=v1.13.0-green.svg"/></a> <a href="https://atom.io/themes/nord-atom-ui"><img src="https://img.shields.io/apm/v/nord-atom-ui.svg"/></a> <a href="https://atom.io/themes/nord-atom-ui"><img src="https://img.shields.io/apm/dm/nord-atom-ui.svg"/></a></p>
 
 ---
+
+# 0.10.1
+*2017-01-25*
+## Bug Fixes
+❯ Fixed unreadable text color for of all focused floating modal overlays by adding the new `syntax--` class prefix introduced by the new Atom syntax theme package API change regarding the shadow DOM removal for Atom >= 1.13.0. (@abrthel, #53, 1598fabd)
+
+<p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/22285966/ed31d25a-e2ed-11e6-9355-c53db4fec0d5.png"/><br><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/22285980/f4cfede4-e2ed-11e6-9906-fa732ca787de.png"/></p>
 
 # 0.10.0
 *2017-01-24*
