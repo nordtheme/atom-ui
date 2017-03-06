@@ -1,8 +1,20 @@
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-atom-ui/develop/assets/nord-atom-ui-banner.svg"/></p>
 
-<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-ui/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-ui.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-blue.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://github.com/atom/atom/releases/tag/v1.13.0"><img src="https://img.shields.io/badge/Atom->=v1.13.0-green.svg"/></a> <a href="https://atom.io/themes/nord-atom-ui"><img src="https://img.shields.io/apm/v/nord-atom-ui.svg"/></a> <a href="https://atom.io/themes/nord-atom-ui"><img src="https://img.shields.io/apm/dm/nord-atom-ui.svg"/></a></p>
+<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-ui/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-ui.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://github.com/atom/atom/releases/tag/v1.13.0"><img src="https://img.shields.io/badge/Atom->=v1.13.0-green.svg"/></a> <a href="https://atom.io/themes/nord-atom-ui"><img src="https://img.shields.io/apm/v/nord-atom-ui.svg"/></a> <a href="https://atom.io/themes/nord-atom-ui"><img src="https://img.shields.io/apm/dm/nord-atom-ui.svg"/></a></p>
 
 ---
+
+# 0.10.2
+*2017-03-06*
+## Bug Fixes
+❯ Fixed the overall height increase of the tab-bar when dragging tabs by disabling the placeholder bar. This also makes the drag & drop animation to be smoother and look more flat. (@maliMirkec, #56, 031da28b)
+
+<p align="center"><strong>Linux (<img src="https://wiki.archlinux.org/favicon.ico" width=16 height=16/> Arch Linux, <img src="https://www.gnome.org/wp-content/themes/gnome-grass/images/favicon.ico" width=16 height=16/> GNOME DE)</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/23586171/074a03c2-0190-11e7-9580-a1f817059429.gif"/><br><strong> <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> macOS (Sierra)</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/23586192/83046b6a-0190-11e7-9d3e-3f007a507466.gif"/></p>
+
+❯ Fixed the tab close icon of tabs by moving it to the right side (macOS only) to not collide with icons of any icon package, like [`file-icons`](https://atom.io/packages/file-icons) or [`seti-icons`](https://atom.io/packages/seti-icons) package, following recommendations in the conversations [atom/tabs #378](https://github.com/atom/tabs/issues/378) and [atom/one-dark-ui #179](https://github.com/atom/one-dark-ui/issues/179). A left-sided tab close icon (macOS only) should be better moved into a optional theme setting to not mess with people's muscle memory or wait to be implemented into the Atom core [tabs](https://github.com/atom/tabs) package. (@peteringram0, #57, c03130db)
+
+<p align="center"><strong>Before with <code>file-icons</code> package</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/23630275/d2df037c-02ba-11e7-9948-32f0dae70c6d.png"/><br><strong>Before with <code>seti-icons</code> package</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/23630292/e2e3dfae-02ba-11e7-9f5c-2a261c93c499.png"/></p>
+<p align="center"><strong>After with <code>file-icons</code> package</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/23630324/016f325c-02bb-11e7-8ad0-e295446f6eff.png"/><br><strong>After with <code>seti-icons</code> package</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/23630345/183d8a88-02bb-11e7-8214-516bc35fcb76.png"/></p>
 
 # 0.10.1
 *2017-01-25*
