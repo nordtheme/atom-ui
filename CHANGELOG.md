@@ -4,6 +4,25 @@
 
 ---
 
+# 0.11.0
+*2017-04-01*
+## Features
+### Package Support
+❯ Implemented support for the community package <img src="https://avatars3.githubusercontent.com/u/515636" width=16 height=16/>  [`indent-guide-improved`](https://atom.io/packages/indent-guide-improved) to adapt to the UI style. This matches the indent guide improvements implemented in [arcticicestudio/nord-atom-syntax #43](https://github.com/arcticicestudio/nord-atom-syntax/issues/43). (@arcticicestudio, #64, e185d481)
+
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/24577073/8a3486da-16c7-11e7-83a7-40cceaa7c87c.gif"/></p>
+
+## Improvements
+### Tabs
+❯ The close icon of inactive tabs is now only colored bright on hover to match the stye of active tabs. (@arcticicestudio, #65, 3d86698b)
+
+<p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/24576737/eff70b1a-16c1-11e7-8480-54dfbe775894.gif"/><br><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/24576880/01c644d0-16c4-11e7-8234-87ba9bb46b53.gif"/></p>
+
+## Bug Fixes
+### Documentation
+❯ Fixed a typo in the project description. This is a sub-task of [arcticicestudio/nord #20](https://github.com/arcticicestudio/nord/issues/20). (@arcticicestudio, #60, 443531b9)
+  > **A** arctic ... -> **An** arctic ...
+
 # 0.10.2
 *2017-03-06*
 ## Bug Fixes
