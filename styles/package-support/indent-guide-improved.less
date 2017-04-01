@@ -1,0 +1,26 @@
+/*
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Community Package Support: indent-guide-improved +
+project    nord-atom-ui                                     +
+repository https://github.com/arcticicestudio/nord-atom-ui  +
+author     Arctic Ice Studio                                +
+email      development@arcticicestudio.com                  +
+copyright  Copyright (C) 2017                               +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[References]
+Atom Packages
+  (https://atom.io/packages/indent-guide-improved)
+*/
+.indent-guide-improved {
+  background-color: @indent-guide-improved-base-color;
+  opacity: 0.5;
+
+  &.indent-guide-stack {
+    background-color: @indent-guide-improved-base-color;
+
+    &.indent-guide-active {
+      background-color: @indent-guide-improved-active-color;
+      opacity: 1.0;
+    }
+  }
+}
