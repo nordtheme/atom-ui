@@ -33,6 +33,10 @@ copyright  Copyright (C) 2016                              +
     position: relative;
     transition: color @transition-time ease, border @transition-time ease, background @transition-time ease;
 
+    .close-icon:hover:before {
+      color: @text-color-highlight;
+    }
+
     .status-added,
     .status-ignored,
     .status-modified {
@@ -50,10 +54,6 @@ copyright  Copyright (C) 2016                              +
     &:hover {
       color: @text-color-highlight;
       background: @tab-background-color-hover;
-
-      .close-icon {
-        display: block;
-      }
     }
   }
 
@@ -82,14 +82,6 @@ copyright  Copyright (C) 2016                              +
 
     .status-ignored {
       color: @text-color-ignored;
-    }
-
-    .close-icon:before {
-      color: @text-color-subtle;
-    }
-
-    .close-icon:hover:before {
-      color: @text-color-highlight;
     }
   }
 
@@ -120,7 +112,7 @@ copyright  Copyright (C) 2016                              +
     transition: transform @transition-time ease, color @transition-time ease, background @transition-time ease;
 
     &:before {
-      color: @text-color-highlight;
+      color: @text-color-subtle;
       font-size: 12px;
       position: absolute;
       top: 2px;
