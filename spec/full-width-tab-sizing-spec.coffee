@@ -1,3 +1,10 @@
+# Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+
+# Project:    Nord Atom UI
+# Repository: https://github.com/arcticicestudio/nord-atom-ui
+# License:    MIT
+
 describe "Nord Atom UI theme", ->
   beforeEach ->
     waitsForPromise ->

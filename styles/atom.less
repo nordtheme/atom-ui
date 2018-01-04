@@ -1,23 +1,17 @@
 /*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Atom Core Styles                                +
-project    nord-atom-ui                                    +
-repository https://github.com/arcticicestudio/nord-atom-ui +
-author     Arctic Ice Studio                               +
-email      development@arcticicestudio.com                 +
-copyright  Copyright (C) 2016                              +
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+ *
+ * Atom core styles.
+ *
+ * Project:    Nord Atom UI
+ * Repository: https://github.com/arcticicestudio/nord-atom-ui
+ * License:    MIT
+ */
 
-[Index]
-  > find-and-replace
-  > Keybinding Badges
-  > Scrollbars
-  > Select Forms
-  > Text Editors
-*/
-/*++++++++++++++++++++
+/*+------------------+
   + find-and-replace +
-  ++++++++++++++++++++*/
+  +------------------+*/
 .project-find,
 .find-and-replace {
   atom-text-editor[mini].is-focused {
@@ -45,9 +39,9 @@ copyright  Copyright (C) 2016                              +
   }
 }
 
-/*++++++++++++++++++++
+/*+-------------------+
   + Keybinding Badges +
-  ++++++++++++++++++++*/
+  +-------------------+*/
 kbd {
   .text(normal);
   color: @tooltip-key-text-color;
@@ -58,9 +52,9 @@ kbd {
   margin-left: @component-padding/2;
 }
 
-/*++++++++++++++
+/*+------------+
   + Scrollbars +
-  +++++++++++++*/
+  +------------+*/
 .scrollbars-visible-always {
   ::-webkit-scrollbar {
     width: 10px;
@@ -104,9 +98,9 @@ kbd {
   }
 }
 
-/*++++++++++++++++
+/*+--------------+
   + Select Forms +
-  ++++++++++++++++*/
+  +--------------+*/
 select.form-control {
   .button(@button-border-color);
   .text(normal);
@@ -121,9 +115,9 @@ select.form-control {
   }
 }
 
-/*++++++++++++++++
+/*+--------------+
   + Text Editors +
-  ++++++++++++++++*/
+  +--------------+*/
 atom-text-editor[mini] {
   transition: all @transition-time ease;
   background-color: @input-background-color;
