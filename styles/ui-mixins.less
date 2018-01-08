@@ -1,31 +1,15 @@
 /*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      UI Mixins                                       +
-project    nord-atom-ui                                    +
-repository https://github.com/arcticicestudio/nord-atom-ui +
-author     Arctic Ice Studio                               +
-email      development@arcticicestudio.com                 +
-copyright  Copyright (C) 2016                              +
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+ *
+ * Project:    Nord Atom UI
+ * Repository: https://github.com/arcticicestudio/nord-atom-ui
+ * License:    MIT
+ */
 
-[Index]
-  > Buttons
-  > Text
-      error
-      heading
-      highlight
-      info
-      normal
-      selected
-      success
-      subtle
-      warning
-  > Overlay
-*/
-
-/*+++++++++++
+/*+---------+
   + Buttons +
-  +++++++++++*/
+  +---------+*/
 .button(@color) {
   color: @text-color;
   font-size: 12px;
@@ -104,9 +88,9 @@ copyright  Copyright (C) 2016                              +
   }
 }
 
-/*++++++++
+/*+------+
   + Text +
-  ++++++++*/
+  +------+*/
 .text(error) {
   .text(normal);
   color: @text-color-error;
@@ -158,9 +142,9 @@ copyright  Copyright (C) 2016                              +
   color: @text-color-warning;
 }
 
-/*+++++++++++
+/*+---------+
   + Overlay +
-  +++++++++++*/
+  +---------+*/
 .overlay-shadow() {
   box-shadow: 0 12px 48px 0 rgba(0, 0, 0, 0.4) !important;
 }
