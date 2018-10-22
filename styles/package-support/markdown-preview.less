@@ -55,7 +55,7 @@ GitHub
   color: @markdown-preview-text-color;
   background-color: @markdown-preview-background-color;
 
-  a {
+  a, a code {
     color: @text-color-info;
   }
 
@@ -73,10 +73,18 @@ GitHub
   code {
     background-color: @markdown-preview-code-background-color !important;
     border-radius: @component-border-radius;
+
+    .syntax--source {
+      color: @nord3;
+    }
+
+    .syntax--punctuation {
+      color: @nord8;
+    }
   }
 
   atom-text-editor[data-grammar="text plain"] {
-    .meta {
+    .syntax--meta {
       color: @markdown-preview-text-color;
     }
   }
