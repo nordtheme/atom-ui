@@ -1,5 +1,5 @@
-# Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+# Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (C) 2016-present Sven Greb <development@svengreb.de>
 
 # Project:    Nord Atom UI
 # Repository: https://github.com/arcticicestudio/nord-atom-ui
@@ -12,4 +12,4 @@ notifications:
   email:
     on_success: never
     on_failure: change
-script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
+script: "curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh"
