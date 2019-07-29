@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+ * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
  *
  * Atom core styles.
  *
@@ -25,7 +25,7 @@
   }
 
   .btn-group-replace .btn,
-  .btn-group-replace-all .btn, {
+  .btn-group-replace-all .btn {
     .button-variant(@text-color-warning);
   }
 
@@ -48,8 +48,8 @@ kbd {
   background: @tooltip-key-background-color;
   font-size: 90%;
   border: 1px solid @tooltip-key-text-color;
-  border-radius: @component-border-radius/2;
-  margin-left: @component-padding/2;
+  border-radius: @component-border-radius / 2;
+  margin-left: @component-padding / 2;
 }
 
 /*+------------+
@@ -110,8 +110,8 @@ select.form-control {
 
   &:focus,
   &:hover {
-   background: @button-border-color !important;
-   color: @base-background-color !important;
+    background: @button-border-color !important;
+    color: @base-background-color !important;
   }
 }
 
@@ -152,7 +152,6 @@ atom-text-editor[mini].is-focused {
   .syntax--source {
     color: @input-text-color-active;
   }
-
 
   &:hover {
     border: 1px solid @text-color-highlight;

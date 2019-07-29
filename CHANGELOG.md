@@ -1,8 +1,12 @@
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-atom-ui/develop/assets/nord-atom-ui-banner.svg"/></p>
+<p align="center"><a href="https://www.nordtheme.com/ports/atom-ui" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/atom-ui/repository-hero.svg?sanitize=true"/></a></p>
 
-<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-ui/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-ui.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://github.com/atom/atom/releases/tag/v1.13.0"><img src="https://img.shields.io/badge/Atom->=v1.13.0-green.svg?style=flat-square"/></a> <a href="https://atom.io/themes/nord-atom-ui"><img src="https://img.shields.io/apm/v/nord-atom-ui.svg?style=flat-square"/></a> <a href="https://atom.io/themes/nord-atom-ui"><img src="https://img.shields.io/apm/dm/nord-atom-ui.svg?style=flat-square"/></a></p>
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/atom-ui" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-ui.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/></a></p>
 
----
+<p align="center"><a href="https://atom.io/themes/nord-atom-ui" target="_blank"><img src="https://img.shields.io/apm/v/nord-atom-ui.svg?style=flat-square&label=Package%20Registry&logo=atom&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://atom.io/themes/nord-atom-ui" target="_blank"><img src="https://img.shields.io/apm/dm/nord-atom-ui.svg?style=flat-square&label=Downloads&logo=atom&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a></p>
+
+<p align="center"><a href="https://blog.atom.io/2017/01/10/atom-1-13.html" target="_blank"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Compatibility&message=%3E%3D1.13.0&logo=atom&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a></p>
+
+<p align="center">Changelog for <a href="https://www.nordtheme.com/ports/atom-ui">Nord Atom UI</a> — An arctic, north-bluish clean and elegant <a href="https://atom.io" target="_blank">Atom</a> UI theme.</p>
 
 # 0.11.0
 *2017-04-01*
