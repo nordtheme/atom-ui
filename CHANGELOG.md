@@ -8,6 +8,49 @@
 
 <p align="center">Changelog for <a href="https://www.nordtheme.com/ports/atom-ui">Nord Atom UI</a> — An arctic, north-bluish clean and elegant <a href="https://atom.io" target="_blank">Atom</a> UI theme.</p>
 
+<!--lint disable no-duplicate-headings-->
+
+# 0.12.0
+
+![Release Date: 2019-07-31](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-07-31&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.12.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-atom-ui/projects/15) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.12.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-atom-ui/milestone/15)
+
+## Features
+
+**Nord Docs Transition** — #82 ⇄ #83 (⊶ 744bcbb8)
+↠ Transferred all documentations, assets and from „Nord Atom UI“ to [Nord Docs][nord].
+Please see the [corresponding issue in the Nord Docs repository][nord-docs#166] to get an overview of what has changed for Nord Atom UI and what has been done to migrate to Nord Docs.
+
+<p align="center">Landing Page</p>
+<p align="center"><a href="https://www.nordtheme.com/ports/atom-ui" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/62059671-f2e1e200-b223-11e9-8e1d-ce28e185336e.png" alt="Preview: Nord Atom UI Port Project Landing Page"/></a></p>
+
+<p align="center">Docs Page</p>
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/atom-ui" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/62059666-f2494b80-b223-11e9-99f0-576efe20e10b.png" alt="Preview: Nord Atom UI Docs Page"/></a></p>
+
+<p align="center">Installation & Activation Guide</p>
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/atom-ui/installation" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/62059670-f2494b80-b223-11e9-933b-8864ec545db4.png" alt="Preview: Nord Atom UI Installation & Activation Guide Page"/></a></p>
+
+<p align="center">Configurations</p>
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/atom-ui/configuration" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/62059667-f2494b80-b223-11e9-990d-b526295de772.png" alt="Preview: Nord Atom UI Configuration Page"/></a></p>
+
+<p align="center">Package Development</p>
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/atom-ui/development" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/62059668-f2494b80-b223-11e9-892b-b53cbe012e06.png" alt="Preview: Nord Atom UI Package Development Guide Page"/></a></p>
+
+## Improvements
+
+### Package Support
+
+**Left align heading for `build`** — #69 (⊶ c59a0d4a) by [@noseglid][gh-user-noseglid]
+↠ Improved the timer of the [`build` package][pkg-build] to stop slightly moving left and right when the value updated due to the position of the comma and the variable container width.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/933880/32978785-59da1530-cc49-11e7-8baf-4d93613d9902.gif"/></p>
+
+## Task
+
+### Documentation
+
+**Migration to MIT license** — #70 ⇄ #71 (⊶ 55587b2e)
+↠ Adapted to the MIT license migration of [Nord][]. Details can be found in the main task ticket [arcticicestudio/nord#55][nord#55].
+
 # 0.11.0
 *2017-04-01*
 ## Features
@@ -189,3 +232,26 @@ Detailed information of already implemented packages can be found in the [projec
   - [`deprecation-cop`](https://atom.io/packages/deprecation-cop) (@arcticicestudio, #23, e9b9a1b2)
   - [`markdown-preview`](https://atom.io/packages/markdown-preview) (@arcticicestudio, #27, 11ed42e6)
   - [`timecop`](https://atom.io/packages/timecop) (@arcticicestudio, #24, 20653ad8)
+
+<!--
++------------------+
++ Symbol Reference +
++------------------+
+↠ (U+21A0): Start of a log section description
+— (U+2014): Separator between a log section title and the metadata
+⇄ (U+21C4): Separator between a issue ID and pull request ID in a log metadata
+⊶ (U+22B6): Icon prefix for the short commit SHA checksum in a log metadata
+-->
+
+<!--lint disable final-definition-->
+
+<!-- Base Links -->
+
+[nord]: https://www.nordtheme.com
+[pkg-build]: https://atom.io/packages/build
+
+<!-- v0.12.0 -->
+
+[gh-user-noseglid]: https://github.com/noseglid
+[nord-docs#166]: https://github.com/arcticicestudio/nord-docs/issues/166
+[nord#55]: https://github.com/arcticicestudio/nord/issues/55
