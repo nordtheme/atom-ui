@@ -1,13 +1,12 @@
 /*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Settings View                                   +
-project    nord-atom-ui                                    +
-repository https://github.com/arcticicestudio/nord-atom-ui +
-author     Arctic Ice Studio                               +
-email      development@arcticicestudio.com                 +
-copyright  Copyright (C) 2016                              +
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-*/
+ * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
+ *
+ * Project:    Nord Atom UI
+ * Repository: https://github.com/arcticicestudio/nord-atom-ui
+ * License:    MIT
+ */
+
 .settings-view {
   font-size: @font-size;
   .text(normal);
@@ -122,17 +121,18 @@ copyright  Copyright (C) 2016                              +
     background: transparent;
     border-width: 1px solid @base-border-color;
     padding: @component-padding;
-    
+
     &:hover {
       background: transparent;
     }
-    
+
     .card-name {
       .text(highlight);
     }
-    
+
     .meta-controls {
-      .install-button, .uninstall-button {
+      .install-button,
+      .uninstall-button {
         &.is-installing,
         &.is-uninstalling {
           background-image: none;
@@ -140,13 +140,13 @@ copyright  Copyright (C) 2016                              +
 
           &::before {
             -webkit-animation: spin 1s linear infinite;
-            content: '\f087';
+            content: "\f087";
           }
         }
       }
 
       .status-indicator {
-        width: @component-padding/2;
+        width: @component-padding / 2;
       }
     }
   }
@@ -176,7 +176,10 @@ copyright  Copyright (C) 2016                              +
   .package-readme {
     font-size: 1em;
 
-    h1, h2, h3, h4 {
+    h1,
+    h2,
+    h3,
+    h4 {
       .text(heading);
     }
   }

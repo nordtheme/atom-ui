@@ -1,23 +1,22 @@
 /*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Lists                                           +
-project    nord-atom-ui                                    +
-repository https://github.com/arcticicestudio/nord-atom-ui +
-author     Arctic Ice Studio                               +
-email      development@arcticicestudio.com                 +
-copyright  Copyright (C) 2016                              +
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-*/
+ * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
+ *
+ * Project:    Nord Atom UI
+ * Repository: https://github.com/arcticicestudio/nord-atom-ui
+ * License:    MIT
+ */
+
 .list-group,
 .list-tree {
   li .character-match {
     .text(normal);
-    transition: color @transition-time/2 ease;
+    transition: color @transition-time / 2 ease;
   }
 
   li:hover .character-match {
     .text(highlight);
-    transition: color @transition-time/2 ease;
+    transition: color @transition-time / 2 ease;
   }
 
   li.selected:before {
@@ -35,7 +34,7 @@ copyright  Copyright (C) 2016                              +
 
   li,
   li.list-item {
-    transition: color @transition-time/2 ease;
+    transition: color @transition-time / 2 ease;
   }
 
   li:hover,
@@ -50,7 +49,7 @@ copyright  Copyright (C) 2016                              +
 
   .generate-list-item-text-color(@class) {
     li:not(.list-nested-item).text-@{class},
-    li.list-nested-item.text-@{class}> .list-item {
+    li.list-nested-item.text-@{class} > .list-item {
       .text(@class);
     }
   }
@@ -63,12 +62,12 @@ copyright  Copyright (C) 2016                              +
 
   .generate-list-item-status-color(@color, @status) {
     li:not(.list-nested-item).status-@{status},
-    li.list-nested-item.status-@{status}> .list-item {
+    li.list-nested-item.status-@{status} > .list-item {
       color: @color;
     }
 
     li:not(.list-nested-item).selected.status-@{status},
-    li.list-nested-item.selected.status-@{status}> .list-item {
+    li.list-nested-item.selected.status-@{status} > .list-item {
       color: @color;
     }
   }
@@ -115,7 +114,7 @@ copyright  Copyright (C) 2016                              +
 
   &.mark-active {
     li:before {
-      content: '';
+      content: "";
       background-color: transparent;
       position: static;
       display: inline-block;
@@ -147,12 +146,12 @@ copyright  Copyright (C) 2016                              +
   border: 1px solid @overlay-border-color !important;
 
   atom-text-editor {
-    margin-bottom: @component-padding/2;
+    margin-bottom: @component-padding / 2;
   }
 
   .list-group li {
-    padding-left: @component-padding/2;
-    transition: color @transition-time/2 ease;
+    padding-left: @component-padding / 2;
+    transition: color @transition-time / 2 ease;
   }
 }
 

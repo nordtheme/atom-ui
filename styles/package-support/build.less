@@ -1,16 +1,16 @@
 /*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Package Support: build                          +
-project    nord-atom-ui                                    +
-repository https://github.com/arcticicestudio/nord-atom-ui +
-author     Arctic Ice Studio                               +
-email      development@arcticicestudio.com                 +
-copyright  Copyright (C) 2016                              +
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-[References]
-Atom Packages
-  (https://atom.io/packages/build)
-*/
+ * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
+ *
+ * Support for community package "build".
+ *
+ * Project:    Nord Atom UI
+ * Repository: https://github.com/arcticicestudio/nord-atom-ui
+ * License:    MIT
+ * References:
+ *   https://atom.io/packages/build
+ */
+
 .build {
   border-left: 0;
   animation: none !important;
@@ -18,7 +18,7 @@ Atom Packages
   .control-container {
     padding-left: 5px;
     padding-right: 5px;
-    opacity: 1.0;
+    opacity: 1;
 
     .btn {
       .button(@button-border-color);
@@ -51,8 +51,8 @@ Atom Packages
   .output {
     font-size: @font-size;
     background-color: @build-terminal-background-color !important;
-    padding-left: @component-padding/2;
-    padding-right: @component-padding/2;
+    padding-left: @component-padding / 2;
+    padding-right: @component-padding / 2;
     border-radius: @component-border-radius;
     color: @text-color !important;
 
