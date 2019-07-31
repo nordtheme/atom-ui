@@ -1,14 +1,14 @@
 {
   "name": "nord-atom-ui",
   "theme": "ui",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "An arctic, north-bluish clean and elegant minimal Atom UI theme.",
   "author": {
     "name": "Arctic Ice Studio",
     "email": "development@arcticicestudio.com",
     "url": "https://www.arcticicestudio.com"
   },
-  "homepage": "https://github.com/arcticicestudio/nord-atom-ui",
+  "homepage": "https://www.nordtheme.com/ports/atom-ui",
   "repository": "https://github.com/arcticicestudio/nord-atom-ui",
   "bugs": {
     "url": "https://github.com/arcticicestudio/nord-atom-ui/issues"
