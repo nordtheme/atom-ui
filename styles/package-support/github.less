@@ -1,0 +1,58 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Core Package Support: github                    +
+project    nord-atom-ui                                    +
+repository https://github.com/arcticicestudio/nord-atom-ui +
+author     Arctic Ice Studio                               +
+email      development@arcticicestudio.com                 +
+copyright  Copyright (C) 2019                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[References]
+Atom Packages
+  (https://atom.io/packages/github)
+*/
+.github-Git-root, .github-Github-root, .github-Reviews, .github-IssueishDetailView {
+  button.icon, span.icon,
+  .hard-wrap-icons, .github-CommitView-coAuthorToggle,
+  .github-ReactionPicker-reaction {
+    padding: 0.1em 1em;
+    border: none !important;
+
+    &:hover, &:active, &:focus {
+      border: none !important;
+      background: inherit !important;
+      color: inherit !important;
+      text-decoration: underline;
+    }
+  }
+
+  .icon-ellipses:hover {
+    color: @nord5;
+  }
+
+  .github-CommitView-editor {
+    button {
+      border: none;
+    }
+  }
+}
+
+.github-HunkHeaderView-stageButton {
+  border-left: none;
+}
+
+.github-FilePatchView-collapseButton {
+  padding: 0.1em 1em;
+  border: none !important;
+
+  &:hover, &:active, &:focus {
+    border: none !important;
+    background: inherit !important;
+    color: inherit !important;
+    text-decoration: underline;
+  }
+}
+
+.gutter[gutter-name="github-comment-icon"] {
+  width: 2.4em;
+}
