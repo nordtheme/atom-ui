@@ -11,10 +11,13 @@ copyright  Copyright (C) 2019                              +
 Atom Packages
   (https://atom.io/packages/github)
 */
-.github-Git-root, .github-Github-root, .github-Reviews, .github-IssueishDetailView {
-  button.icon, span.icon,
-  .hard-wrap-icons, .github-CommitView-coAuthorToggle,
-  .github-ReactionPicker-reaction {
+.github-Git-root, .github-Github-root, .github-Reviews {
+  button.icon, span.icon, .hard-wrap-icons, 
+  .github-CommitView-coAuthorToggle,
+  .github-ReactionPicker-reaction,
+  .github-FilePatchView-collapseButton,
+  .github-ReactionPicker-reaction,
+  .open-commit-detail-button {
     padding: 0.1em 1em;
     border: none !important;
 
@@ -39,18 +42,17 @@ Atom Packages
 
 .github-HunkHeaderView-stageButton {
   border-left: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
-.github-FilePatchView-collapseButton {
-  padding: 0.1em 1em;
-  border: none !important;
+.github-HunkHeaderView-discardButton {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
 
-  &:hover, &:active, &:focus {
-    border: none !important;
-    background: inherit !important;
-    color: inherit !important;
-    text-decoration: underline;
-  }
+.github-Reviews-topHeader {
+  padding: 0.6em;
 }
 
 .gutter[gutter-name="github-comment-icon"] {
@@ -65,4 +67,25 @@ Atom Packages
   padding: 0;
   height: inherit;
   line-height: inherit;
+  border: none !important;
+
+  &:hover, &:active, &:focus {
+    border: none !important;
+    background: inherit !important;
+    color: inherit !important;
+  }
 }
+
+.github-IssueishDetailView {
+  .github-PrCommitView-messageHeadline {
+    border: none !important;
+  }
+}
+
+.github-CommitDetailView, .github-IssueishDetailView {
+  .github-FilePatchView-collapseButton {
+    border: none !important;
+    padding: 0.1em 1em;
+  }
+}
+
