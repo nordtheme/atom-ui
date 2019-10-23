@@ -12,11 +12,9 @@ Atom Packages
   (https://atom.io/packages/github)
 */
 .github-Git-root, .github-Github-root, .github-Reviews {
-  button.icon, span.icon, .hard-wrap-icons, 
+  button.icon, span.icon, .hard-wrap-icons,
   .github-CommitView-coAuthorToggle,
-  .github-ReactionPicker-reaction,
   .github-FilePatchView-collapseButton,
-  .github-ReactionPicker-reaction,
   .open-commit-detail-button {
     padding: 0.1em 1em;
     border: none !important;
@@ -79,6 +77,12 @@ Atom Packages
 .github-IssueishDetailView {
   .github-PrCommitView-messageHeadline {
     border: none !important;
+
+    &:hover, &:active, &:focus {
+      color: inherit !important;
+      background: none !important;
+      text-decoration: underline;
+    }
   }
 }
 
@@ -89,3 +93,12 @@ Atom Packages
   }
 }
 
+.github-ReactionPicker-reaction {
+  padding: 0.1em 1em;
+  border: none !important;
+
+  &:hover, &:active, &:focus {
+    border: none !important;
+    color: inherit !important;
+  }
+}
