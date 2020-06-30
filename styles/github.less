@@ -1,0 +1,31 @@
+/*
+ * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
+ *
+ * Project:    Nord Atom UI
+ * Repository: https://github.com/arcticicestudio/nord-atom-ui
+ * License:    MIT
+ * References:
+ *   https://atom.io/docs/api/latest/Atom
+ *   https://atom.io/docs
+ *   https://github.com/atom/atom/blob/master/static/variables/ui-variables.less
+ *   http://lesscss.org
+ */
+ 
+.github-CommitView-hardwrap,
+.github-StatusBarTile,
+.github-ChangedFilesCount,
+.github-branch,
+.github-PushPull {
+  border: none !important;
+  
+  // Disable button effects, not the cleanes way.
+  color: @text-color !important;
+  background: @base-border-color !important;
+  
+  cursor: pointer !important;
+}
+
+.github-BranchMenuView-select {
+  color: @text-color;
+}
