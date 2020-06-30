@@ -21,18 +21,18 @@
     opacity: 1;
 
     .btn {
-      .button(@button-border-color);
+      .button(@base-background-color, @button-border-color);
 
       &.icon-zap {
-        .button-variant(@text-color-info);
+        .button-variant(@base-background-color, @text-color-info);
       }
 
       &.icon-trashcan {
-        .button-variant(@text-color-warning);
+        .button-variant(@base-background-color, @text-color-warning);
       }
 
       &.icon-x {
-        .button(@button-border-color);
+        .button(@base-background-color, @button-border-color);
       }
     }
   }

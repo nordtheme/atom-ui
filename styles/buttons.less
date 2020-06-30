@@ -11,13 +11,7 @@ button,
 button.icon,
 .btn-default,
 .btn {
-  .button(@button-border-color);
-
-  &:focus,
-  &:active:focus {
-    outline: 0;
-    border: 1px solid @text-color-selected !important;
-  }
+  .button(@base-background-color, @button-border-color);
 
   &.btn-xs {
     font-size: 10px;
@@ -41,23 +35,23 @@ button.icon,
   }
 
   &.btn-error {
-    .button-variant(@text-color-error);
+    .button-variant(@base-background-color, @text-color-error);
   }
 
   &.btn-info {
-    .button-variant(@text-color-info);
+    .button-variant(@base-background-color, @text-color-info);
   }
 
   &.btn-primary {
-    .button-variant(@text-color-info);
+    .button-variant(@base-background-color, @text-color-info);
   }
 
   &.btn-success {
-    .button-variant(@text-color-success);
+    .button-variant(@base-background-color, @text-color-success);
   }
 
   &.btn-warning {
-    .button-variant(@text-color-warning);
+    .button-variant(@base-background-color, @text-color-warning);
   }
 
   &.status-indicator {

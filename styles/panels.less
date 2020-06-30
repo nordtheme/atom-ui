@@ -51,26 +51,26 @@ atom-panel-container {
   border-radius: 0;
 
   & .btn {
-    .button(@button-border-color);
+    .button(@base-background-color, @button-border-color);
 
     &.btn-primary {
-      .button-variant(@text-color-info);
+      .button-variant(@base-background-color, @text-color-info);
     }
 
     &.btn-info {
-      .button-variant(@text-color-info);
+      .button-variant(@base-background-color, @text-color-info);
     }
 
     &.btn-success {
-      .button-variant(@text-color-success);
+      .button-variant(@base-background-color, @text-color-success);
     }
 
     &.btn-warning {
-      .button-variant(@text-color-warning);
+      .button-variant(@base-background-color, @text-color-warning);
     }
 
     &.btn-error {
-      .button-variant(@text-color-error);
+      .button-variant(@base-background-color, @text-color-error);
     }
 
     font-size: 11px !important;

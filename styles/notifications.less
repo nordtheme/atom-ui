@@ -23,9 +23,10 @@ atom-notifications {
   .btn {
     height: 24px !important;
     line-height: 20px !important;
-
+    
     &.close-all {
-      .button-variant(@text-color-info);
+      .button-variant(@base-background-color, @text-color-info);
+      color: @text-color-info !important; // some other funky stuff going on.
     }
   }
 

@@ -10,81 +10,66 @@
 /*+---------+
   + Buttons +
   +---------+*/
-.button(@color) {
+.button(@background-color, @highlight-color) {
   color: @text-color;
   font-size: 12px;
   font-weight: 400;
-  background: transparent;
+  background: @background-color;
   height: @input-height;
   line-height: @input-height;
   border-radius: @component-border-radius;
-  border-color: @color;
-  border-width: 1px !important;
-  border-style: solid !important;
+  border: 1px solid @highlight-color !important;
   box-shadow: none !important;
   transition: all @transition-time ease;
   padding: 0 10px;
-
+  cursor: pointer;
+  
+  &:hover,
+  &:active,
+  &.selected {
+    color: @background-color;
+    background: @highlight-color;
+  }
+  
   &:focus {
     outline: none;
   }
-
-  &:focus,
-  &:hover {
-    color: @base-background-color !important;
-    background: @color !important;
-    border-color: @color !important;
-  }
-
-  &:active,
-  &:active:focus {
-    color: @base-background-color;
-    background: @color;
-    border: 1px solid @text-color-selected !important;
-  }
-
-  &.selected {
-    color: @base-background-color;
-    background: @button-background-color-selected;
-    border: 1px solid @color !important;
-
-    &:hover {
-      color: @base-background-color !important;
-      border: 1px solid @text-color-highlight !important;
-      background: @color !important;
-    }
-  }
-
+  
   &[disabled],
   &.disabled {
     opacity: 1;
     background-color: transparent !important;
     border-color: transparent !important;
     color: @text-color-subtle !important;
+    cursor: default;
   }
 }
 
-.button-variant(@color) {
-  .button(@color);
-  color: @color !important;
-  border-color: @color !important;
-  background: transparent;
+// Colored buttons with same content color as highlight-color.
+.button-variant(@base-background-color, @highlight-color) {
+  .button(@base-background-color, @highlight-color);
+  color: @highlight-color;
+}
 
+// Only highlight inner content on hover, then everything on selected.
+.button-variant-inner(@background-color, @base-color, @highlight-color) {
+  .button(@background-color, @highlight-color);
+  color: @base-color;
+  
+  // No idea why this works, but without it find and replace buttons stay 
+  // toggeled on until something else is focused.
+  // Copied idea from one-dark-ui theme.
+  background-image: linear-gradient(@background-color, @background-color);
+  
   &:hover {
-    border-color: @color !important;
+    color: @highlight-color;
+    background-color: @background-color;
   }
-
+  
+  &:active,
   &.selected {
-    color: @base-background-color !important;
-    background: @color !important;
-  }
-
-  &[disabled],
-  &.disabled {
-    opacity: 1;
-    background-color: transparent !important;
-    border-color: transparent !important;
-    color: @text-color-subtle !important;
+    color: @background-color;
+    background-color: @highlight-color;
   }
 }
 

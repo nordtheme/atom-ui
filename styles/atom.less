@@ -27,12 +27,19 @@
   }
 
   .btn-group-find .btn {
-    .button-variant(@text-color-info);
+    .button-variant(@base-background-color, @text-color-info);
   }
 
   .btn-group-replace .btn,
   .btn-group-replace-all .btn {
-    .button-variant(@text-color-warning);
+    .button-variant(@base-background-color, @text-color-warning);
+  }
+  
+  .btn-toggle .btn {
+    // Pin padding and line height to avoid having them overwritten.
+    padding: 0 !important;
+    line-height: 1.75 !important;
+    .button-variant-inner(@base-background-color, @text-color-subtle, @text-color-highlight);
   }
 
   .find-meta-container {
@@ -108,7 +115,7 @@ kbd {
   + Select Forms +
   +--------------+*/
 select.form-control {
-  .button(@button-border-color);
+  .button(@base-background-color, @button-border-color);
   .text(normal);
   height: @input-height;
   line-height: @input-height;
