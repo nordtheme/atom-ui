@@ -1,4 +1,4 @@
-<p align="center"><a href="https://www.nordtheme.com/ports/atom-ui" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/atom-ui/repository-hero.svg?sanitize=true"/></a></p>
+<p align="center"><a href="https://www.nordtheme.com/ports/atom-ui" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/atom-ui/repository-hero.svg?sanitize=true"/></a></p>
 
 <p align="center"><a href="https://github.com/arcticicestudio/nord-atom-ui/releases/latest" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-ui.svg?style=flat-square&label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://www.nordtheme.com/docs/ports/atom-ui" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-ui.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/></a> <a href="https://github.com/arcticicestudio/nord-atom-ui/blob/develop/CHANGELOG.md" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-ui.svg?style=flat-square&label=Changelog&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a></p>
 
@@ -12,7 +12,7 @@
 
 <p align="center">Designed for a fluent and clear workflow based on the <a href="https://www.nordtheme.com" target="_blank">Nord</a> color palette that fits the <a href="https://atom.io/themes/nord-atom-syntax" target="_blank">Nord Atom Syntax</a> theme.</p>
 
-<p align="center"><a href="https://www.nordtheme.com/ports/atom-ui" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/atom-ui/overview-command-palette.png"/></a></p>
+<p align="center"><a href="https://www.nordtheme.com/ports/atom-ui" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/atom-ui/overview-command-palette.png"/></a></p>
 
 ## Getting Started
 
@@ -28,7 +28,7 @@ Thanks to the official [Atom package registry][atom-theme_pack-reg], _Nord Atom 
 2. Switch to the _Install_ pane and enable the [_Themes_ package search filter][atom-docs-pkgs-themes].
 3. Search for _Nord_ and and click on the <kbd>Install</kbd> button to finish the installation.
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/atom-ui/settings-package-registry.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/atom-ui/settings-package-registry.png"/></p>
 
 See the documentation for details about more installation options like through the [APM `install` command][nord-docs-home-install#apm].
 
@@ -36,7 +36,7 @@ See the documentation for details about more installation options like through t
 
 To activate the theme, open the [_Settings_][atom-docs-basic-settings] and switch to the _Themes_ pane to [change the UI or syntax theme][atom-docs-basic-theme_switch]. Click on the the _UI Theme_ drop-down menu and select _Nord Atom_.
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/atom-ui/settings-theme-select.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/atom-ui/settings-theme-select.png"/></p>
 
 See the documentation for details about [more activation options][nord-docs-home-install#activation].
 
@@ -44,15 +44,15 @@ See the documentation for details about [more activation options][nord-docs-home
 
 <div align="center"><p><strong>Your IDE. Your style.</strong></p><p>A unified UI and editor syntax element design provides a clutter-free and fluidly merging appearance.</p></div>
 
-<p align="center"><a href="https://www.nordtheme.com/ports/atom-ui#introduction" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/atom-ui/overview-go.png"/></a></p>
+<p align="center"><a href="https://www.nordtheme.com/ports/atom-ui#introduction" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/atom-ui/overview-go.png"/></a></p>
 
 <div align="center"><p><strong>Uniform design with beautiful UI elements.</strong></p><p>The themed UI elements provide a fluid and unobtrusive transition from the code editor to the IDE.</p></div>
 
-<p align="center"><a href="https://www.nordtheme.com/ports/atom-ui#ui-elements" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/atom-ui/settings-components.png"/></a></p>
+<p align="center"><a href="https://www.nordtheme.com/ports/atom-ui#ui-elements" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/atom-ui/settings-components.png"/></a></p>
 
 <div align="center"><p><strong>Take your favorite packages with you.</strong></p><p>The theme supports many popular UI packages for fluid and unobtrusive user interface transitions.</p></div>
 
-<p align="center"><a href="https://www.nordtheme.com/ports/atom-ui#package-support" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/atom-ui/package-support-tool-bar.png"/></a></p>
+<p align="center"><a href="https://www.nordtheme.com/ports/atom-ui#package-support" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/atom-ui/package-support-tool-bar.png"/></a></p>
 
 ## Contributing
 
@@ -64,7 +64,7 @@ Please take a moment to read Nord's full [contributing guide][nord-contrib-guide
 
 The guide also includes information about [minimal, complete, and verifiable examples][nord-contrib-guide-mcve] and other ways to contribute to the project like [improving existing issues][nord-contrib-guide-impr-issues] and [giving feedback on issues and pull requests][nord-contrib-guide-feedback].
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-footer-separator.svg?sanitize=true"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/nord/repository-footer-separator.svg?sanitize=true"/></p>
 
 <p align="center">Copyright &copy; 2016-present <a href="https://www.arcticicestudio.com" target="_blank">Arctic Ice Studio</a> and <a href="https://www.svengreb.de" target="_blank">Sven Greb</a></p>
 
