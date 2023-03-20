@@ -1,11 +1,9 @@
-# Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (C) 2016-present Sven Greb <development@svengreb.de>
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
 
-# Project:    Nord Atom UI
-# Repository: https://github.com/arcticicestudio/nord-atom-ui
-# License:    MIT
+# Travis CI configuration.
 # References:
-#   https://docs.travis-ci.com
+#   1. https://docs.travis-ci.com/user/languages/javascript-with-nodejs
 
 language: objective-c
 notifications:
