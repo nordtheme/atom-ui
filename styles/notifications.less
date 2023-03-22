@@ -1,21 +1,18 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord Atom UI
- * Repository: https://github.com/arcticicestudio/nord-atom-ui
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
 atom-notifications {
   .text(normal);
+
   top: 32px;
   background-color: transparent;
 
   .close {
     transition: all @transition-time ease;
 
-    &:before {
+    &::before {
       color: @text-color;
     }
   }

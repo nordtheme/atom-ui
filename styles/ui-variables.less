@@ -1,31 +1,24 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord Atom UI
- * Repository: https://github.com/arcticicestudio/nord-atom-ui
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
-/*+---------+
-  + Imports +
-  +---------+*/
-@import "nord";
+@import url("nord");
 
-/*+------------+
-  + Animations +
-  +------------+*/
+/* +------------+
+   + Animations +
+   +------------+ */
 @ui-theme-name: nord-atom-ui;
 @transition-time: 400ms;
 
-/*+------+
-  + Base +
-  +------+*/
+/* +------+
+   + Base +
+   +------+ */
 @base-background-color: @nord0;
 @base-border-color: @nord1;
 @app-background-color: @base-background-color;
 
-/*+--- Background ---+*/
+/* +--- Background ---+ */
 @background-color-highlight: @nord2;
 @background-color-selected: @nord1;
 @background-color-info: @nord8;
@@ -33,7 +26,7 @@
 @background-color-warning: @nord12;
 @background-color-error: @nord11;
 
-/*+--- Text ---+*/
+/* +--- Text ---+ */
 @text-color: @nord4;
 @text-color-subtle: fade(@text-color, 40%);
 @text-color-highlight: @nord6;
@@ -48,37 +41,38 @@
 @text-color-modified: @nord13;
 @text-color-removed: @nord11;
 
-/*+------------+
-  + Components +
-  +------------+*/
-/*+--- Button ---+*/
+/* +------------+
+   + Components +
+   +------------+ */
+
+/* +--- Button ---+ */
 @button-background-color: transparent;
 @button-background-color-hover: @input-border-color;
 @button-background-color-selected: @input-border-color;
 @button-border-color: @input-border-color;
 
-/*+--- Gutter ---+*/
+/* +--- Gutter ---+ */
 @gutter-background-color: transparent;
 @gutter-background-color-selected: transparent;
 @gutter-text-color: @text-color-subtle;
 @gutter-text-color-selected: @text-color-selected;
 
-/*+--- Input ---+*/
+/* +--- Input ---+ */
 @input-background-color: @nord1;
 @input-border-color: @text-color;
 @input-border-color-active: @input-background-color-active;
 @input-background-color-active: @text-color;
 @input-text-color-active: @base-background-color;
 
-/*+--- Overlay ---+*/
+/* +--- Overlay ---+ */
 @overlay-background-color: @tool-panel-background-color;
 @overlay-border-color: @base-border-color;
 
-/*+--- Pane ---+*/
+/* +--- Pane ---+ */
 @pane-item-background-color: @nord2;
 @pane-item-border-color: @base-border-color;
 
-/*+--- Panel ---+*/
+/* +--- Panel ---+ */
 @tool-panel-background-color: @base-background-color;
 @tool-panel-border-color: @base-border-color;
 @inset-panel-background-color: @nord1;
@@ -86,23 +80,23 @@
 @panel-heading-background-color: @nord1;
 @panel-heading-border-color: @base-border-color;
 
-/*+--- Progress Indicator ---+*/
+/* +--- Progress Indicator ---+ */
 @progress-loading-bar-background-color: @nord8;
 
-/*+--- Scrollbar ---+*/
+/* +--- Scrollbar ---+ */
 @scrollbar-color: @nord1;
 @scrollbar-color-active: @nord1;
 @scrollbar-border-color: @nord0;
 @scrollbar-track-color: transparent;
 
-/*+--- Site ---+*/
+/* +--- Site ---+ */
 @ui-site-color-1: @nord8;
 @ui-site-color-2: @nord14;
 @ui-site-color-3: @nord12;
 @ui-site-color-4: @nord11;
 @ui-site-color-5: @nord13;
 
-/*+--- Tab ---+*/
+/* +--- Tab ---+ */
 @tab-bar-background-color: @app-background-color;
 @tab-bar-border-color: @base-border-color;
 @tab-background-color: @tool-panel-background-color;
@@ -110,55 +104,56 @@
 @tab-background-color-hover: @nord1;
 @tab-border-color: @base-border-color;
 
-/*+--- Tooltip ---+*/
+/* +--- Tooltip ---+ */
 @tooltip-text-color: @base-background-color;
 @tooltip-background-color: @text-color;
 @tooltip-key-text-color: @nord8;
 @tooltip-key-background-color: @base-background-color;
 
-/*+--- Tree View ---+*/
+/* +--- Tree View ---+ */
 @tree-view-background-color: @tool-panel-background-color;
 @tree-view-border-color: @base-border-color;
 
-/*+----------------+
-  + Configurations +
-  +----------------+*/
+/* +----------------+
+   + Configurations +
+   +----------------+ */
 @use-custom-controls: true;
 
-/*+-------+
-  + Fonts +
-  +-------+*/
-@font-family: "BlinkMacSystemFont", "System Font", "Helvetica Neue", "Roboto", "Cantarell", "Ubuntu", "Lucida Grande",
-  "Segoe UI", "Noto Sans", sans-serif;
+/* +-------+
+   + Fonts +
+   +-------+ */
+@font-family: "BlinkMacSystemFont", "System Font", "Helvetica Neue", "Roboto", "Cantarell", "Ubuntu", "Lucida Grande", "Segoe UI", "Noto Sans", sans-serif;
 
-/*+-----------------+
-  + Package Support +
-  +-----------------+*/
-/*+--- build ---+*/
+/* +-----------------+
+   + Package Support +
+   +-----------------+ */
+
+/* +--- build ---+ */
 @build-terminal-background-color: darken(@nord0, 2%);
 
-/*+--- imdone-atom ---+*/
+/* +--- imdone-atom ---+ */
 @imdone-atom-task-background-color: darken(@nord1, 2%);
 @imdone-atom-task-background-color-draged: @nord1;
 
-/*+--- indent-guide-improved ---+*/
+/* +--- indent-guide-improved ---+ */
 @indent-guide-improved-base-color: @nord2;
 @indent-guide-improved-active-color: @nord3;
 
-/*+--- markdown-preview ---+*/
+/* +--- markdown-preview ---+ */
 @markdown-preview-background-color: @nord6;
 @markdown-preview-border-color: @nord4;
 @markdown-preview-code-background-color: @nord4;
 @markdown-preview-table-body-color: @nord5;
 @markdown-preview-text-color: @nord0;
 
-/*+--- tool-bar ---+*/
+/* +--- tool-bar ---+ */
 @tool-bar-spacer-border-color: @nord4;
 
-/*+-------+
-  + Sizes +
-  +-------+*/
-/*+--- Base ---+*/
+/* +-------+
+   + Sizes +
+   +-------+ */
+
+/* +--- Base ---+ */
 @disclosure-arrow-size: 12px;
 @component-icon-size: 16px;
 @component-icon-padding: 5px;
@@ -166,15 +161,15 @@
 @component-line-height: 26px;
 @component-border-radius: 4px;
 
-/*+--- Font ---+*/
+/* +--- Font ---+ */
 @font-size: 14px;
 @input-font-size: 14px;
 
-/*+--- Input ---+*/
+/* +--- Input ---+ */
 @input-height: 32px;
 
-/*+--- List ---+*/
+/* +--- List ---+ */
 @list-active-icon-size: 14px;
 
-/*+--- Tab ---+*/
+/* +--- Tab ---+ */
 @tab-height: 40px;

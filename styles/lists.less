@@ -1,30 +1,29 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord Atom UI
- * Repository: https://github.com/arcticicestudio/nord-atom-ui
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
 .list-group,
 .list-tree {
   li .character-match {
     .text(normal);
+
     transition: color @transition-time / 2 ease;
   }
 
   li:hover .character-match {
     .text(highlight);
+
     transition: color @transition-time / 2 ease;
   }
 
-  li.selected:before {
+  li.selected::before {
     background: @background-color-selected;
   }
 
   li.selected .character-match {
     .text(selected);
+
     font-size: @font-size;
   }
 
@@ -80,6 +79,7 @@
   li:not(.list-nested-item).selected,
   li.list-nested-item.selected > .list-item {
     .text(selected);
+
     font-size: @font-size;
   }
 }
@@ -103,7 +103,7 @@
   li.selected {
     background-color: @background-color-selected;
 
-    &:before {
+    &::before {
       display: none;
     }
 
@@ -113,7 +113,7 @@
   }
 
   &.mark-active {
-    li:before {
+    li::before {
       content: "";
       background-color: transparent;
       position: static;
@@ -124,14 +124,14 @@
       width: @list-active-icon-size;
     }
 
-    > li:not(.active):before {
+    > li:not(.active)::before {
       margin-right: @component-icon-padding;
     }
 
     li.active {
       .octicon(check, @list-active-icon-size);
 
-      &:before {
+      &::before {
         margin-right: @component-icon-padding;
         color: @text-color-success;
       }
@@ -141,6 +141,7 @@
 
 .select-list.popover-list {
   .overlay-shadow();
+
   background-color: @overlay-background-color;
   border-radius: @component-border-radius !important;
   border: 1px solid @overlay-border-color !important;
@@ -162,6 +163,7 @@
 
   li.ui-sortable-placeholder {
     visibility: visible !important;
+    /* stylelint-disable-next-line function-no-unknown */
     background-color: darken(@pane-item-background-color, 10%);
   }
 }

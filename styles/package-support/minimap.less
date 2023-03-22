@@ -1,18 +1,17 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Support for community package "minimap".
- *
- * Project:    Nord Atom UI
- * Repository: https://github.com/arcticicestudio/nord-atom-ui
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
+ */
+
+/*
+ * Support for the community package "minimap".
  * References:
- *   https://atom.io/packages/minimap
+ *   1. https://atom.io/packages/minimap
  */
 
 atom-text-editor atom-text-editor-minimap .minimap-visible-area,
 html atom-text-editor-minimap .minimap-visible-area {
   opacity: 0.6;
+  /* stylelint-disable-next-line function-name-case,function-no-unknown */
   background-color: fade(@base-background-color, 30%);
 }

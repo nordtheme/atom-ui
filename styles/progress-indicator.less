@@ -1,21 +1,16 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord Atom UI
- * Repository: https://github.com/arcticicestudio/nord-atom-ui
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
-/*+---------+
-  + Spinner +
-  +---------+*/
+/* +---------+
+   + Spinner +
+   +---------+ */
 .loading-spinner(@size) {
   width: @size;
   height: @size;
   display: block;
-
-  background-image: url(images/octocat-spinner-128.gif);
+  background-image: url("images/octocat-spinner-128.gif");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -40,10 +35,11 @@
   .loading-spinner(20px);
 }
 
-/*+-------------+
-  + Loading Bar +
-  +-------------+*/
+/* +-------------+
+   + Loading Bar +
+   +-------------+ */
 progress {
+  /* stylelint-disable-next-line property-no-vendor-prefix */
   -webkit-appearance: none;
   height: 8px;
   border-radius: @component-border-radius;
@@ -68,12 +64,15 @@ progress {
       transparent 66%
     );
     background-size: 24px 8px, 100% 100%, 100% 100%;
+    /* stylelint-disable-next-line property-no-vendor-prefix */
     -webkit-animation: progress-buffering 5s linear 6;
   }
 }
 
+/* stylelint-disable-next-line at-rule-no-vendor-prefix */
 @-webkit-keyframes progress-buffering {
   100% {
-    background-position: -100px 0px;
+    /* stylelint-disable-next-line at-rule-no-vendor-prefix */
+    background-position: -100px 0;
   }
 }

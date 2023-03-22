@@ -1,10 +1,6 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord Atom UI
- * Repository: https://github.com/arcticicestudio/nord-atom-ui
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
 .tab-bar {
@@ -14,10 +10,12 @@
   padding: 0;
   display: table;
   table-layout: fixed;
+  /* stylelint-disable-next-line property-no-vendor-prefix */
   -webkit-transform: scale(1);
 
   .tab {
     .text(normal);
+
     text-align: center;
     color: @text-color-subtle;
     background: @tab-background-color;
@@ -32,7 +30,7 @@
     position: relative;
     transition: color @transition-time ease, border @transition-time ease, background @transition-time ease;
 
-    .close-icon:hover:before {
+    .close-icon:hover::before {
       color: @text-color-highlight;
     }
 
@@ -84,7 +82,7 @@
     }
   }
 
-  .tab.modified:hover .close-icon:before {
+  .tab.modified:hover .close-icon::before {
     color: @text-color-info;
   }
 
@@ -110,7 +108,7 @@
     border-radius: 2px;
     transition: transform @transition-time ease, color @transition-time ease, background @transition-time ease;
 
-    &:before {
+    &::before {
       color: @text-color-subtle;
       font-size: 12px;
       position: absolute;
@@ -132,7 +130,7 @@
   }
 }
 
-@media (max-width: 1280px), (max-height: 800px) {
+@media (width <= 1280px), (height <= 800px) {
   .tab-bar {
     height: @tab-height * 0.8;
 

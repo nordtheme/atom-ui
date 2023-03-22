@@ -1,20 +1,18 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Support for core package "markdown-preview".
- *
- * Project:    Nord Atom UI
- * Repository: https://github.com/arcticicestudio/nord-atom-ui
- * License:    MIT
- * References:
- *   https://atom.io/packages/markdown-preview
- *   https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
-/*+--------------+
-  + GitHub Style +
-  +--------------+*/
+/*
+ * Support for the core package "markdown-preview".
+ * References:
+ *   1. https://atom.io/packages/markdown-preview
+ *   2. https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+ */
+
+/* +--------------+
+   + GitHub Style +
+   +--------------+ */
 .markdown-preview[data-use-github-style] {
   atom-text-editor {
     padding: 16px;
@@ -37,13 +35,13 @@
   h3,
   h4,
   h5 {
-    color: #333333;
+    color: #333;
   }
 }
 
-/*+------------+
-  + Nord Style +
-  +------------+*/
+/* +------------+
+   + Nord Style +
+   +------------+ */
 .markdown-preview,
 .markdown-preview:not([data-use-github-style]) {
   color: @markdown-preview-text-color;
@@ -121,6 +119,7 @@
       background-color: @markdown-preview-table-body-color;
 
       &:nth-child(2n) {
+        /* stylelint-disable-next-line function-no-unknown */
         background-color: darken(@markdown-preview-background-color, 3%);
       }
     }

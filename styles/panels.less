@@ -1,19 +1,17 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord Atom UI
- * Repository: https://github.com/arcticicestudio/nord-atom-ui
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
 atom-panel {
   .text(normal);
+
   background: @tool-panel-background-color;
 
   &.bottom {
     background: @app-background-color;
   }
+
   &.bottom > *:not(:empty) {
     background: @app-background-color;
     padding-top: @component-padding / 2;
@@ -22,6 +20,8 @@ atom-panel {
 }
 
 atom-panel-container {
+  background: @base-background-color;
+
   &.bottom {
     margin-top: 2px;
     border-top: 1px solid @tool-panel-border-color;
@@ -35,10 +35,6 @@ atom-pane-container atom-pane .item-views,
   border: 0;
 }
 
-atom-panel-container {
-  background: @base-background-color;
-}
-
 .focusable-panel,
 .item-views .focusable-panel {
   padding: @component-padding;
@@ -47,6 +43,7 @@ atom-panel-container {
 .inset-panel .panel-heading,
 .panel-heading {
   .text(heading);
+
   font-size: 24px;
   border-radius: 0;
 

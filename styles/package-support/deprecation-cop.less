@@ -1,14 +1,12 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Support for core package "deprecation-cop".
- *
- * Project:    Nord Atom UI
- * Repository: https://github.com/arcticicestudio/nord-atom-ui
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
+ */
+
+/*
+ * Support for the core package "deprecation-cop".
  * References:
- *   https://atom.io/packages/deprecation-cop
+ *   1. https://atom.io/packages/deprecation-cop
  */
 
 .deprecation-cop {
@@ -16,7 +14,7 @@
     padding-top: @component-padding / 2;
     padding-bottom: @component-padding / 2;
 
-    &:before {
+    &::before {
       transition: all @transition-time ease;
       opacity: 0;
     }
@@ -24,7 +22,7 @@
     &:hover {
       background-color: transparent !important;
 
-      &:before {
+      &::before {
         opacity: 1;
       }
     }

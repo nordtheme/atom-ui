@@ -1,17 +1,15 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Support for community package "project-manager".
- *
- * Project:    Nord Atom UI
- * Repository: https://github.com/arcticicestudio/nord-atom-ui
- * License:    MIT
- * References:
- *   https://atom.io/packages/project-manager
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
-.project-manager atom-text-editor[mini]:before,
-.project-manager-dialog atom-text-editor[mini]:before {
+/*
+ * Support for the community package "project-manager".
+ * References:
+ *   1. https://atom.io/packages/project-manager
+ */
+
+.project-manager atom-text-editor[mini]::before,
+.project-manager-dialog atom-text-editor[mini]::before {
   content: "\f001" !important;
 }

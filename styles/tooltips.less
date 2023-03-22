@@ -1,10 +1,6 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord Atom UI
- * Repository: https://github.com/arcticicestudio/nord-atom-ui
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
 .tooltip {
@@ -12,6 +8,7 @@
 
   .keystroke {
     .text(normal);
+
     color: @tooltip-key-text-color;
     background: @tooltip-key-background-color;
     font-size: 90%;
@@ -26,13 +23,14 @@
 
   .tooltip-inner {
     .text(normal);
+    .overlay-shadow();
+
     line-height: @component-line-height;
     border-radius: @component-border-radius;
     background-color: @tooltip-background-color;
     color: @tooltip-text-color !important;
     white-space: nowrap;
     max-width: none;
-    .overlay-shadow();
   }
 
   &.top .tooltip-arrow {

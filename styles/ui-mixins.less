@@ -1,15 +1,11 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord Atom UI
- * Repository: https://github.com/arcticicestudio/nord-atom-ui
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
-/*+---------+
-  + Buttons +
-  +---------+*/
+/* +---------+
+   + Buttons +
+   +---------+ */
 .button(@color) {
   color: @text-color;
   font-size: 12px;
@@ -66,6 +62,7 @@
 
 .button-variant(@color) {
   .button(@color);
+
   color: @color !important;
   border-color: @color !important;
   background: transparent;
@@ -88,11 +85,12 @@
   }
 }
 
-/*+------+
-  + Text +
-  +------+*/
+/* +------+
+   + Text +
+   +------+ */
 .text(error) {
   .text(normal);
+
   color: @text-color-error;
 }
 
@@ -104,12 +102,14 @@
 
 .text(highlight) {
   .text(normal);
+
   font-size: inherit;
   color: @text-color-highlight;
 }
 
 .text(info) {
   .text(normal);
+
   color: @text-color-info;
 }
 
@@ -122,29 +122,34 @@
 
 .text(selected) {
   .text(normal);
+
   font-size: inherit;
   color: @text-color-selected;
 }
 
 .text(subtle) {
   .text(normal);
+
   font-size: inherit;
   color: @text-color-subtle;
 }
 
 .text(success) {
   .text(normal);
+
   color: @text-color-success;
 }
 
 .text(warning) {
   .text(normal);
+
   color: @text-color-warning;
 }
 
-/*+---------+
-  + Overlay +
-  +---------+*/
+/* +---------+
+   + Overlay +
+   +---------+ */
 .overlay-shadow() {
-  box-shadow: 0 12px 48px 0 rgba(0, 0, 0, 0.4) !important;
+  /* stylelint-disable-next-line color-function-notation */
+  box-shadow: 0 12px 48px 0 rgba(0, 0, 0, 40%) !important;
 }

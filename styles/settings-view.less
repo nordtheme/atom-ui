@@ -1,10 +1,6 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord Atom UI
- * Repository: https://github.com/arcticicestudio/nord-atom-ui
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
 .settings-view {
@@ -13,6 +9,7 @@
 
   .breadcrumb {
     .text(normal);
+
     font-weight: 200;
   }
 
@@ -32,12 +29,13 @@
 
       &:hover {
         background: transparent;
-        &:before {
+
+        &::before {
           color: @text-color-highlight;
         }
       }
 
-      &:before {
+      &::before {
         margin-right: 0;
         transition: color @transition-time ease;
       }
@@ -46,18 +44,20 @@
 
   .alert-info {
     color: @text-color-info;
+    /* stylelint-disable-next-line function-no-unknown */
     background: mix(@text-color-info, @base-background-color, 32%);
 
-    button.close:before {
+    button.close::before {
       color: @text-color-info;
     }
   }
 
   .alert-danger {
     color: @text-color-error;
+    /* stylelint-disable-next-line function-no-unknown */
     background: mix(@text-color-error, @base-background-color, 32%);
 
-    button.close:before {
+    button.close::before {
       color: @text-color-error;
     }
   }
@@ -82,11 +82,13 @@
 
     .section-heading {
       .text(heading);
+
       font-size: 24px;
     }
 
     .sub-section-heading {
       .text(heading);
+
       font-size: 16px;
     }
   }
@@ -118,6 +120,7 @@
 
   .package-card {
     .text(normal);
+
     background: transparent;
     border-width: 1px solid @base-border-color;
     padding: @component-padding;
@@ -136,9 +139,11 @@
         &.is-installing,
         &.is-uninstalling {
           background-image: none;
+          /* stylelint-disable-next-line property-no-vendor-prefix */
           -webkit-animation: none;
 
           &::before {
+            /* stylelint-disable-next-line property-no-vendor-prefix */
             -webkit-animation: spin 1s linear infinite;
             content: "\f087";
           }

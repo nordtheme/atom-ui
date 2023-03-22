@@ -1,68 +1,68 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord Atom UI
- * Repository: https://github.com/arcticicestudio/nord-atom-ui
- * License:    MIT
- * References:
- *   https://atom.io/docs/api/latest/Atom
- *   https://atom.io/docs
- *   https://github.com/atom/atom/blob/master/static/variables/ui-variables.less
- *   http://lesscss.org
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
-/*+------+
-  + Core +
-  +------+*/
-@import (reference) "styles/ui-variables";
-@import (reference) "octicon-mixins";
-@import (reference) "styles/ui-mixins";
-@import "styles/ui-animations";
+/*
+ * References:
+ *   1. https://atom.io/docs/api/latest/Atom
+ *   2. https://atom.io/docs
+ *   3. https://github.com/atom/atom/blob/master/static/variables/ui-variables.less
+ *   4. http://lesscss.org
+ */
 
-/*+------------+
-  + Components +
-  +------------+*/
-@import "styles/atom";
-@import "styles/buttons";
-@import "styles/editor";
-@import "styles/inputs";
-@import "styles/lists";
-@import "styles/messages";
-@import "styles/notifications";
-@import "styles/overlays";
-@import "styles/panels";
-@import "styles/progress-indicator";
-@import "styles/settings-view";
-@import "styles/sites";
-@import "styles/status-bar";
-@import "styles/tabs";
-@import "styles/text";
-@import "styles/tooltips";
-@import "styles/tree-view";
+/* +------+
+   + Core +
+   +------+ */
+@import (reference) url("styles/ui-variables");
+@import (reference) url("octicon-mixins");
+@import (reference) url("styles/ui-mixins");
+@import url("styles/ui-animations");
 
-/*+-----------------+
-  + Package Support +
-  +-----------------+*/
-/*+--- Community ---+*/
-@import "styles/package-support/build";
-@import "styles/package-support/color-picker";
-@import "styles/package-support/expose";
-@import "styles/package-support/imdone-atom";
-@import "styles/package-support/indent-guide-improved";
-@import "styles/package-support/minimap";
-@import "styles/package-support/minimap-git-diff";
-@import "styles/package-support/project-manager";
-@import "styles/package-support/script";
-@import "styles/package-support/tool-bar";
+/* +------------+
+   + Components +
+   +------------+ */
+@import url("styles/atom");
+@import url("styles/buttons");
+@import url("styles/editor");
+@import url("styles/inputs");
+@import url("styles/lists");
+@import url("styles/messages");
+@import url("styles/notifications");
+@import url("styles/overlays");
+@import url("styles/panels");
+@import url("styles/progress-indicator");
+@import url("styles/settings-view");
+@import url("styles/sites");
+@import url("styles/status-bar");
+@import url("styles/tabs");
+@import url("styles/text");
+@import url("styles/tooltips");
+@import url("styles/tree-view");
 
-/*+--- Core ---+*/
-@import "styles/package-support/autocomplete-plus";
-@import "styles/package-support/deprecation-cop";
-@import "styles/package-support/markdown-preview";
-@import "styles/package-support/timecop";
+/* +-----------------+
+   + Package Support +
+   +-----------------+ */
 
-/*+----------------+
-  + Theme Settings +
-  +----------------+*/
-@import "styles/ui-theme-settings";
+/* +--- Community ---+ */
+@import url("styles/package-support/build");
+@import url("styles/package-support/color-picker");
+@import url("styles/package-support/expose");
+@import url("styles/package-support/imdone-atom");
+@import url("styles/package-support/indent-guide-improved");
+@import url("styles/package-support/minimap");
+@import url("styles/package-support/minimap-git-diff");
+@import url("styles/package-support/project-manager");
+@import url("styles/package-support/script");
+@import url("styles/package-support/tool-bar");
+
+/* +--- Core ---+ */
+@import url("styles/package-support/autocomplete-plus");
+@import url("styles/package-support/deprecation-cop");
+@import url("styles/package-support/markdown-preview");
+@import url("styles/package-support/timecop");
+
+/* +----------------+
+   + Theme Settings +
+   +----------------+ */
+@import url("styles/ui-theme-settings");

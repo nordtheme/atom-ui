@@ -1,17 +1,11 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Atom core styles.
- *
- * Project:    Nord Atom UI
- * Repository: https://github.com/arcticicestudio/nord-atom-ui
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
-/*+------------------+
-  + find-and-replace +
-  +------------------+*/
+/* +------------------+
+   + find-and-replace +
+   +------------------+ */
 .project-find,
 .find-and-replace {
   atom-text-editor[mini].is-focused {
@@ -39,11 +33,12 @@
   }
 }
 
-/*+-------------------+
-  + Keybinding Badges +
-  +-------------------+*/
+/* +-------------------+
+   + Keybinding Badges +
+   +-------------------+ */
 kbd {
   .text(normal);
+
   color: @tooltip-key-text-color;
   background: @tooltip-key-background-color;
   font-size: 90%;
@@ -52,9 +47,9 @@ kbd {
   margin-left: @component-padding / 2;
 }
 
-/*+------------+
-  + Scrollbars +
-  +------------+*/
+/* +------------+
+   + Scrollbars +
+   +------------+ */
 .scrollbars-visible-always {
   ::-webkit-scrollbar {
     width: 10px;
@@ -98,12 +93,13 @@ kbd {
   }
 }
 
-/*+--------------+
-  + Select Forms +
-  +--------------+*/
+/* +--------------+
+   + Select Forms +
+   +--------------+ */
 select.form-control {
   .button(@button-border-color);
   .text(normal);
+
   height: @input-height;
   line-height: @input-height;
   text-transform: none;
@@ -115,9 +111,9 @@ select.form-control {
   }
 }
 
-/*+--------------+
-  + Text Editors +
-  +--------------+*/
+/* +--------------+
+   + Text Editors +
+   +--------------+ */
 atom-text-editor[mini] {
   transition: all @transition-time ease;
   background-color: @input-background-color;
@@ -135,6 +131,7 @@ atom-text-editor[mini] {
 
   .placeholder-text {
     .text(subtle);
+
     height: @input-height;
     line-height: @input-height - 2px;
   }
@@ -160,6 +157,7 @@ atom-text-editor[mini].is-focused {
   }
 
   .selection .region {
+    /* stylelint-disable-next-line function-no-unknown */
     background-color: fade(@background-color-highlight, 40%);
   }
 }

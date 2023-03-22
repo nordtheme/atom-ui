@@ -1,27 +1,28 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Support for community package "minimap-git-diff".
- *
- * Project:    Nord Atom UI
- * Repository: https://github.com/arcticicestudio/nord-atom-ui
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
+ */
+
+/*
+ * Support for the community package "minimap-git-diff".
  * References:
- *   https://atom.io/packages/minimap-git-diff
+ *   1. https://atom.io/packages/minimap-git-diff
  */
 
 .minimap {
   .line {
     .git-line-modified {
+      /* stylelint-disable-next-line function-name-case,function-no-unknown */
       background: fadeOut(@text-color-modified, 50%);
     }
 
     .git-line-added {
+      /* stylelint-disable-next-line function-name-case,function-no-unknown */
       background: fadeOut(@text-color-added, 50%);
     }
 
     .git-line-removed {
+      /* stylelint-disable-next-line function-name-case,function-no-unknown */
       background: fadeOut(@text-color-removed, 50%);
     }
   }

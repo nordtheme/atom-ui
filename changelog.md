@@ -1,18 +1,37 @@
-<p align="center"><a href="https://www.nordtheme.com/ports/atom-ui" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/atom-ui/repository-hero.svg?sanitize=true"/></a></p>
+<p align="center">
+  <a href="https://www.nordtheme.com/ports/atom-ui" target="_blank">
+    <picture>
+      <source srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/atom-ui/repository-hero.svg?sanitize=true" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+      <img srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/atom-ui/repository-hero.svg?sanitize=true" width="100%" />
+    </picture>
+  </a>
+</p>
 
-<p align="center"><a href="https://www.nordtheme.com/docs/ports/atom-ui" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-ui.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/></a></p>
+<p align="center">
+  <a href="https://github.com/nordtheme/atom-ui/releases/latest" target="_blank">
+    <img src="https://img.shields.io/github/release/nordtheme/atom-ui.svg?style=flat-square&label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
+  </a>
+  <a href="https://www.nordtheme.com/docs/ports/atom-ui" target="_blank">
+    <img src="https://img.shields.io/github/release/nordtheme/atom-ui.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/>
+  </a>
+</p>
 
-<p align="center"><a href="https://atom.io/themes/nord-atom-ui" target="_blank"><img src="https://img.shields.io/apm/v/nord-atom-ui.svg?style=flat-square&label=Package%20Registry&logo=atom&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://atom.io/themes/nord-atom-ui" target="_blank"><img src="https://img.shields.io/apm/dm/nord-atom-ui.svg?style=flat-square&label=Downloads&logo=atom&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a></p>
+<p align="center">
+  <a href="https://github.com/nordtheme/nord/releases/tag/v0.2.0" target="_blank">
+    <img src="https://img.shields.io/static/v1.svg?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAACUklEQVRIibXUQUiTcRjH8e+zvaO0AgPd1mDmNvFVI+ng1UNU1wiDoEIIoUNUdOkQUkER1KWTnRJCLyZBIdEhQvAWQVp5KN9X3bskmHunYbeZbu/TaWXRdOLrc3ue5/f/f/6nP+xwycy8m6y0LGqg0N7UsLB+9jmdbQwZQaNawPBKpCstA3g/7fRCl5k68P7PLNjplRgBQtUAYjmuCriqDP690RqQK8A3WSt1mmZsqbyyM+4pVc5tcvdxYD+W46qVdif/l7Ac95bluGo57piqBqt58e+zaXfSclwNbBQyE+F7KKPAMTuzeGcrQLk2BEREV41dvYAD2jeddrt9BQA6DtYtC3QDKyIM2pmlVl+Bublc2ExGpgS9BuxTLT2byuX2+AYUJTAyPq6GmYwOIPoEOLy7IAO+AYgejTW5dwF2UbiM8kGVs9NO/qo/AGRV5Ybl5E4mEokVT0rdwHdBH9pOvmvbgCd6GlgDGZqddVPtydg8aC9gKDqybaA9EX2nyHWgrhTkxUQ2W9uajL4U0QdAbNsAQFsy3C8wBHTsXQk+BmhpitwE3vgCANSGVi8pfATO207uooh4hqc9vgHxeLzgeXIG+KFIv5Ve7GxujuZ9AwAONYfnVLUHCCHec9vO1vsKALSloq9A7gONhILDm/2yWwYAzETDbeC1wgk7k+/bKCuW4yqwDIxtGBSGzURktNzbdrZeQ8EJIA76CJXCP/kLCpEyUE2VVLWnLRV9Wh7MZPJHPNW3QE2lQ0YgSKpKgLWiV1zftyTCn758XUwZ4lUEdrx+ASW88rx2UJY8AAAAAElFTkSuQmCC&label=Nord&message=v0.2.0&colorA=4c566a&colorB=88c0d0"/>
+  </a>
+  <a href="https://blog.atom.io/2017/01/10/atom-1-13.html" target="_blank">
+    <img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Atom%20Version%20Compatibility&message=%3E%3D1.13.0&logo=atom&logoColor=eceff4&colorA=4c566a&colorB=88c0d0" />
+  </a>
+</p>
 
-<p align="center"><a href="https://blog.atom.io/2017/01/10/atom-1-13.html" target="_blank"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Compatibility&message=%3E%3D1.13.0&logo=atom&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a></p>
-
-<p align="center">Changelog for <a href="https://www.nordtheme.com/ports/atom-ui">Nord Atom UI</a> — An arctic, north-bluish clean and elegant <a href="https://atom.io" target="_blank">Atom</a> UI theme.</p>
+<p align="center">Changelog for <a href="https://www.nordtheme.com/ports/atom-ui" target="_blank">Nord Atom UI</a> — An arctic, north-bluish clean and elegant <a href="https://atom.io" target="_blank">Atom</a> UI theme.</p>
 
 <!--lint disable no-duplicate-headings-->
 
 # 0.12.0
 
-![Release Date: 2019-07-31](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-07-31&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.12.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-atom-ui/projects/15) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.12.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-atom-ui/milestone/15)
+![Release Date: 2019-07-31](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-07-31&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.12.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.12.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/atom-ui/milestone/15)
 
 ## Features
 
@@ -49,7 +68,7 @@ Please see the [corresponding issue in the Nord Docs repository][nord-docs#166] 
 ### Documentation
 
 **Migration to MIT license** — #70 ⇄ #71 (⊶ 55587b2e)
-↠ Adapted to the MIT license migration of [Nord][]. Details can be found in the main task ticket [arcticicestudio/nord#55][nord#55].
+↠ Adapted to the MIT license migration of [Nord][]. Details can be found in the main task ticket [nordtheme/nord#55][nord#55].
 
 # 0.11.0
 
@@ -59,7 +78,7 @@ _2017-04-01_
 
 ### Package Support
 
-❯ Implemented support for the community package <img src="https://avatars3.githubusercontent.com/u/515636" width=16 height=16/> [`indent-guide-improved`](https://atom.io/packages/indent-guide-improved) to adapt to the UI style. This matches the indent guide improvements implemented in [arcticicestudio/nord-atom-syntax #43](https://github.com/arcticicestudio/nord-atom-syntax/issues/43). (@arcticicestudio, #64, e185d481)
+❯ Implemented support for the community package <img src="https://avatars3.githubusercontent.com/u/515636" width=16 height=16/> [`indent-guide-improved`](https://atom.io/packages/indent-guide-improved) to adapt to the UI style. This matches the indent guide improvements implemented in [nordtheme/atom-syntax #43](https://github.com/nordtheme/atom-syntax/issues/43). (@svengreb, #64, e185d481)
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/24577073/8a3486da-16c7-11e7-83a7-40cceaa7c87c.gif"/></p>
 
@@ -67,7 +86,7 @@ _2017-04-01_
 
 ### Tabs
 
-❯ The close icon of inactive tabs is now only colored bright on hover to match the stye of active tabs. (@arcticicestudio, #65, 3d86698b)
+❯ The close icon of inactive tabs is now only colored bright on hover to match the stye of active tabs. (@svengreb, #65, 3d86698b)
 
 <p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/24576737/eff70b1a-16c1-11e7-8480-54dfbe775894.gif"/><br><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/24576880/01c644d0-16c4-11e7-8234-87ba9bb46b53.gif"/></p>
 
@@ -75,7 +94,7 @@ _2017-04-01_
 
 ### Documentation
 
-❯ Fixed a typo in the project description. This is a sub-task of [arcticicestudio/nord #20](https://github.com/arcticicestudio/nord/issues/20). (@arcticicestudio, #60, 443531b9)
+❯ Fixed a typo in the project description. This is a sub-task of [nordtheme/nord #20](https://github.com/nordtheme/nord/issues/20). (@svengreb, #60, 443531b9)
 
 > **A** arctic ... -> **An** arctic ...
 
@@ -112,10 +131,10 @@ _2017-01-24_
 
 ## Improvements
 
-❯ Migrated to the new Atom theme API.  
-Starting from Atom version 1.13, the contents of `atom-text-editor` [elements are no longer encapsulated within a shadow DOM boundary](http://blog.atom.io/2016/11/14/removing-shadow-dom-boundary-from-text-editor-elements.html).  
+❯ Migrated to the new Atom theme API.
+Starting from Atom version 1.13, the contents of `atom-text-editor` [elements are no longer encapsulated within a shadow DOM boundary](http://blog.atom.io/2016/11/14/removing-shadow-dom-boundary-from-text-editor-elements.html).
 This means the `:host` and `::shadow` pseudo-selectors should be completely removed and all syntax selectors should be prepended with `syntax--`.
-To prevent breakage with existing style sheets, Atom will automatically upgrade selectors for versions less or equal to 1.12. (@arcticicestudio, #31, 42d7f7ba)
+To prevent breakage with existing style sheets, Atom will automatically upgrade selectors for versions less or equal to 1.12. (@svengreb, #31, 42d7f7ba)
 
 ![](http://blog.atom.io/img/posts/shadow-dom.png)
 
@@ -125,12 +144,12 @@ _2016-12-01_
 
 ## Improvements
 
-❯ Single tabs are now colored with the base background color to better match the theme ambience. (@arcticicestudio, #44, ee8a0c60)
+❯ Single tabs are now colored with the base background color to better match the theme ambience. (@svengreb, #44, ee8a0c60)
 
 <p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20312911/645613e4-ab55-11e6-8d53-2d38f70627b8.png"/></p>
 <p align="center"><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20313106/1be50772-ab56-11e6-9315-3e93ae14d9fb.gif"/></p>
 
-❯ The background color of selected list items is now slightly darker (`nord2` to `nord1`) to better fit the darker ambience and improve the text visibility. (@arcticicestudio, #48, ddba34d5)
+❯ The background color of selected list items is now slightly darker (`nord2` to `nord1`) to better fit the darker ambience and improve the text visibility. (@svengreb, #48, ddba34d5)
 
 <p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20810519/56b36cb6-b80a-11e6-9ba4-3364796a8cdb.png"/></p>
 <p align="center"><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20810543/66f4cca0-b80a-11e6-817b-c52b596584b6.png"/></p>
@@ -155,8 +174,8 @@ The text color was too bright and therefore was not be seen. (@ToxidoLiu, #45, 9
 
 <p align="center"><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20575493/ca7e7dae-b1b9-11e6-9fab-3e8baa3c4303.png"/></p>
 
-❯ Fixed unreadable plain text in [`markdown-preview`](https://atom.io/packages/markdown-preview) code blocks.  
-The text color was equal the to the background color and was therefore not be seen. (@arcticicestudio, #46, 6a55c98d)
+❯ Fixed unreadable plain text in [`markdown-preview`](https://atom.io/packages/markdown-preview) code blocks.
+The text color was equal the to the background color and was therefore not be seen. (@svengreb, #46, 6a55c98d)
 
 <p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20575212/96694f7c-b1b8-11e6-8baf-f5bb255c9471.png"/><br><img src="https://cloud.githubusercontent.com/assets/7836623/20575216/996ff6ee-b1b8-11e6-8e56-abee385852cd.gif"/></p>
 
@@ -170,13 +189,13 @@ _2016-11-16_
 
 ### Theme Settings
 
-❯ Implemented a new theme setting to use darker colors for focused forms like the `find-and-replace`- and `project-search` inputs. (@arcticicestudio, #43, 38d1ca07)
+❯ Implemented a new theme setting to use darker colors for focused forms like the `find-and-replace`- and `project-search` inputs. (@svengreb, #43, 38d1ca07)
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/20313180/636b4f48-ab56-11e6-8502-ad99f163c94b.png"/><br><strong>With default snow-inspired focus effect</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20311958/f694259c-ab51-11e6-8c2e-cf9dae01b774.gif"/><br><strong>With enabled setting for darker focus color effect</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20318435/871389f6-ab6a-11e6-8ab4-f33a5a63ae78.gif"/></p>
 
 ## Bug Fixes
 
-❯ Fixed regexp groups in the `find-and-replace` inputs getting obscured if the current syntax highlighting theme uses light colors for these pattern. (@arcticicestudio, #39, fca9d9f5)
+❯ Fixed regexp groups in the `find-and-replace` inputs getting obscured if the current syntax highlighting theme uses light colors for these pattern. (@svengreb, #39, fca9d9f5)
 
 <p align="center"><strong>Selected characters are now colored correctly</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20318449/998233c6-ab6a-11e6-9242-b1fca03bee9b.gif"/><br><strong>With enabled "Darker Form-Focusing Effect" theme setting the current syntax highlighting remains preserved</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20318452/9ccd68fc-ab6a-11e6-8886-1c2cacce14cf.gif"/></p>
 
@@ -188,17 +207,17 @@ _2016-11-12_
 
 ### Package Support
 
-❯ Implemented support for the community package <img src="https://avatars3.githubusercontent.com/u/25722" width=16 height=16/> [`tool-bar`](https://atom.io/packages/tool-bar) by [suda](https://github.com/suda) to make the tool-bar package fit more with the surrounding UI. (@arcticicestudio, #41, 010119c6)
+❯ Implemented support for the community package <img src="https://avatars3.githubusercontent.com/u/25722" width=16 height=16/> [`tool-bar`](https://atom.io/packages/tool-bar) by [suda](https://github.com/suda) to make the tool-bar package fit more with the surrounding UI. (@svengreb, #41, 010119c6)
 
 <p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20238574/f3ec4780-a8ee-11e6-8b4d-45b28ea5e6bb.png"/><br><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20238582/03dae0c0-a8ef-11e6-9cbd-2d8eb4785143.png"/></p>
 
-❯ Implemented support for the community package <img src="https://avatars3.githubusercontent.com/u/7209979" width=16 height=16/> [`minimap-git-diff`](https://atom.io/packages/minimap-git-diff) by [atom-minimap](https://github.com/atom-minimap) to make the minimap-git-diff package fit more with the theme color palette. (@arcticicestudio, #42, e5251f7)
+❯ Implemented support for the community package <img src="https://avatars3.githubusercontent.com/u/7209979" width=16 height=16/> [`minimap-git-diff`](https://atom.io/packages/minimap-git-diff) by [atom-minimap](https://github.com/atom-minimap) to make the minimap-git-diff package fit more with the theme color palette. (@svengreb, #42, e5251f7)
 
 <p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20238616/dcff8702-a8ef-11e6-9e7b-19e9aa813e87.png"/><br><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/20238617/e3f5c8aa-a8ef-11e6-8acb-56e4acf568b8.png"/></p>
 
 ## Improvements
 
-❯ The current active tab is now colored with a slightly lighter background color to differ from inactive tabs. (@arcticicestudio, #40, bc213c13)
+❯ The current active tab is now colored with a slightly lighter background color to differ from inactive tabs. (@svengreb, #40, bc213c13)
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/20320075/d9b84d6c-ab70-11e6-87ea-13707830719b.png"/></p>
 
@@ -220,7 +239,7 @@ _2016-11-01_
 
 ### Theme Settings
 
-❯ The theme can now be tweaked by using the theme settings which can be found by clicking on the gear icon next to the _UI Theme_ drop-down. (@arcticicestudio, #36, 98dfc25d)  
+❯ The theme can now be tweaked by using the theme settings which can be found by clicking on the gear icon next to the _UI Theme_ drop-down. (@svengreb, #36, 98dfc25d)
 The following options are available:
 
 _Full-Width Tab Sizing_
@@ -231,7 +250,7 @@ _Full-Width Tab Sizing_
 
 ### Package Support
 
-❯ Implemented support for the community package <img src="https://avatars1.githubusercontent.com/u/836375" width=16 height=16/> [`script`](https://atom.io/packages/script) by [rgbkrk](https://github.com/rgbkrk) (@arcticicestudio, #37, b8f7e87a)
+❯ Implemented support for the community package <img src="https://avatars1.githubusercontent.com/u/836375" width=16 height=16/> [`script`](https://atom.io/packages/script) by [rgbkrk](https://github.com/rgbkrk) (@svengreb, #37, b8f7e87a)
 
 # 0.4.0
 
@@ -241,7 +260,7 @@ _2016-11-01_
 
 ### Package Support
 
-❯ Implemented support for the community package <img src="https://avatars3.githubusercontent.com/u/6087523" width=16 height=16/> [`imdone-atom`](https://atom.io/packages/imdone-atom) by [imdone](https://github.com/imdone) (@arcticicestudio, #38, 4214c7fa)
+❯ Implemented support for the community package <img src="https://avatars3.githubusercontent.com/u/6087523" width=16 height=16/> [`imdone-atom`](https://atom.io/packages/imdone-atom) by [imdone](https://github.com/imdone) (@svengreb, #38, 4214c7fa)
 
 # 0.3.0
 
@@ -251,7 +270,7 @@ _2016-09-29_
 
 ### Package Support
 
-❯ Implemented support for the community package <img src="https://avatars1.githubusercontent.com/u/933880" width=16 height=16/> [`build`](https://atom.io/packages/build) by [noseglid](https://github.com/noseglid) (@arcticicestudio, #34, dfebe0c6)
+❯ Implemented support for the community package <img src="https://avatars1.githubusercontent.com/u/933880" width=16 height=16/> [`build`](https://atom.io/packages/build) by [noseglid](https://github.com/noseglid) (@svengreb, #34, dfebe0c6)
 
 # 0.2.0
 
@@ -261,42 +280,64 @@ _2016-09-20_
 
 ### Controls
 
-❯ The background color of checked checkboxes is now the accent color instead of lime/green (@arcticicestudio, #33, 55b0be1f)
+❯ The background color of checked checkboxes is now the accent color instead of lime/green (@svengreb, #33, 55b0be1f)
 
 ## Bugfixes
 
 ### Documentation
 
-❯ Fixed all unrendered images in the [atom.io](https://atom.io/themes/nord-atom-ui) package README by using the `https://raw.githubusercontent.com` domain (@arcticicestudio, #32, 9db9fed2)
+❯ Fixed all unrendered images in the [atom.io](https://atom.io/themes/nord-atom-ui) package README by using the `https://raw.githubusercontent.com` domain (@svengreb, #32, 9db9fed2)
 
 # 0.1.0
 
 _2016-09-20_
-**Initial APM package release version!**  
-_Closes the [APM Package Release](https://github.com/arcticicestudio/nord-atom-ui/milestone/1) milestone._
+**Initial APM package release version!**
+_Closes the [APM Package Release](https://github.com/nordtheme/atom-ui/milestone/1) milestone._
 
 ## Features
 
-A complete list of all implemented features can be found in the [README](https://github.com/arcticicestudio/nord-atom-ui/blob/develop/README.md#features) section.
+A complete list of all implemented features can be found in the [README](https://github.com/nordtheme/atom-ui/blob/develop/readme.md#features) section.
 
 ### Package Support
 
-The [Package Support](https://github.com/arcticicestudio/nord-atom-ui/milestone/2) milestone backlog ticket #20 contains a list of all currently implemented- and planned package supports.  
-Detailed information of already implemented packages can be found in the [project wiki](https://github.com/arcticicestudio/nord-atom-ui/wiki/Package-Support).
+The [Package Support](https://github.com/nordtheme/atom-ui/milestone/2) milestone backlog ticket #20 contains a list of all currently implemented- and planned package supports.
 
 **Community**
 
-- <img src="https://avatars3.githubusercontent.com/u/2833514" width=16 height=16/> [`color-picker`](https://atom.io/packages/color-picker) by [thomaslindstrom](https://github.com/thomaslindstrom) (@arcticicestudio, #21, 132eb795)
-- <img src="https://avatars0.githubusercontent.com/u/659763" width=16 height=16/> [`expose`](https://atom.io/packages/expose) by [mrodalgaard](https://github.com/mrodalgaard) (@arcticicestudio, #30, 4e70ed1d)
-- <img src="https://avatars3.githubusercontent.com/u/7209979" width=16 height=16/> [`minimap`](https://atom.io/packages/minimap) by [atom-minimap](https://github.com/atom-minimap) (@arcticicestudio, #28, 8ba2bddc)
-- <img src="https://avatars0.githubusercontent.com/u/696872" width=16 height=16/> [`project-manager`](https://atom.io/packages/project-manager) by [danielbrodin](https://github.com/danielbrodin) (@arcticicestudio, #29, 233233dd)
+- <img src="https://avatars3.githubusercontent.com/u/2833514" width=16 height=16/> [`color-picker`](https://atom.io/packages/color-picker) by [thomaslindstrom](https://github.com/thomaslindstrom) (@svengreb, #21, 132eb795)
+- <img src="https://avatars0.githubusercontent.com/u/659763" width=16 height=16/> [`expose`](https://atom.io/packages/expose) by [mrodalgaard](https://github.com/mrodalgaard) (@svengreb, #30, 4e70ed1d)
+- <img src="https://avatars3.githubusercontent.com/u/7209979" width=16 height=16/> [`minimap`](https://atom.io/packages/minimap) by [atom-minimap](https://github.com/atom-minimap) (@svengreb, #28, 8ba2bddc)
+- <img src="https://avatars0.githubusercontent.com/u/696872" width=16 height=16/> [`project-manager`](https://atom.io/packages/project-manager) by [danielbrodin](https://github.com/danielbrodin) (@svengreb, #29, 233233dd)
+
+<!--lint ignore maximum-heading-length-->
 
 ## <img src="https://avatars0.githubusercontent.com/u/1089146" width=16 height=16/> Core
 
-- [`autocomplete-plus`](https://atom.io/packages/autocomplete-plus) (@arcticicestudio, #22, 44714fd6)
-- [`deprecation-cop`](https://atom.io/packages/deprecation-cop) (@arcticicestudio, #23, e9b9a1b2)
-- [`markdown-preview`](https://atom.io/packages/markdown-preview) (@arcticicestudio, #27, 11ed42e6)
-- [`timecop`](https://atom.io/packages/timecop) (@arcticicestudio, #24, 20653ad8)
+- [`autocomplete-plus`](https://atom.io/packages/autocomplete-plus) (@svengreb, #22, 44714fd6)
+- [`deprecation-cop`](https://atom.io/packages/deprecation-cop) (@svengreb, #23, e9b9a1b2)
+- [`markdown-preview`](https://atom.io/packages/markdown-preview) (@svengreb, #27, 11ed42e6)
+- [`timecop`](https://atom.io/packages/timecop) (@svengreb, #24, 20653ad8)
+
+<p align="center">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/dark/spaced.svg" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <source srcset="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/light/spaced.svg" width="100%" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/dark/spaced.svg" width="100%" />
+  </picture>
+</p>
+
+<p align="center">
+  Copyright &copy; 2016-present <a href="https://www.svengreb.de" target="_blank">Sven Greb</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/nordtheme/atom-ui/blob/develop/license" target="_blank">
+    <img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
+  </a>
+  <a href="https://www.svengreb.de">
+    <img src="https://img.shields.io/static/v1.svg?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABMklEQVQ4jcWQvUoDQRRGz52s5IfVIiDWPkGKFFaCIVaGdIagjcFAwICFb7DvIK6QQlNpY2UQLMQVBbEQ0SewFkGbKCQmOzaTJay7/lR+zTAf9xwuF/47Mv45rdezqWEq72v/RWZnHgqOMwDwHMfSj085JSqb6Pu38we7r18E3nqzhmYbsE11rxKsAvhDfQiSM30XYbOw57YDwfnaRl6U3ABWaMNn806H+oGPzBX3d+4UgChZiYBHYBgGsBLoKoAyhR0x9G20Zmpc4P1ZoMQDcwMNclFrdhBKv6M5WWi7ZQGtjEUn35IV4OwnVjSX/WGmKqCDDUa5rmyle3bvGFiMg3WGUsF1u0EXHoqTRMGRgkAy2eugKZrqijRLYThWANBpNDL2h3UE0J0YLJdbrfe42f/NJ0wqY7/KcXKPAAAAAElFTkSuQmCC&label=lovely%20crafted%20in&message=Germany&colorA=4c566a&colorB=88c0d0"/>
+  </a>
+</p>
 
 <!--
 +------------------+
@@ -319,4 +360,4 @@ Detailed information of already implemented packages can be found in the [projec
 
 [gh-user-noseglid]: https://github.com/noseglid
 [nord-docs#166]: https://github.com/arcticicestudio/nord-docs/issues/166
-[nord#55]: https://github.com/arcticicestudio/nord/issues/55
+[nord#55]: https://github.com/nordtheme/nord/issues/55
