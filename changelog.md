@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://www.nordtheme.com/ports/atom-ui" target="_blank">
     <picture>
-      <source srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/atom-ui/repository-hero.svg?sanitize=true" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-      <img srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/atom-ui/repository-hero.svg?sanitize=true" width="100%" />
+      <source srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/atom-ui/repository-hero.svg?sanitize=true" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+      <img srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/atom-ui/repository-hero.svg?sanitize=true" width="100%" />
     </picture>
   </a>
 </p>
@@ -359,5 +359,5 @@ The [Package Support](https://github.com/nordtheme/atom-ui/milestone/2) mileston
 <!-- v0.12.0 -->
 
 [gh-user-noseglid]: https://github.com/noseglid
-[nord-docs#166]: https://github.com/arcticicestudio/nord-docs/issues/166
+[nord-docs#166]: https://github.com/nordtheme/web/issues/166
 [nord#55]: https://github.com/nordtheme/nord/issues/55
